@@ -38,7 +38,7 @@ Os indicadores urbanos dos municípios maranhenses são públicos e existem. Mas
 | | |
 |---|---|
 | **Mapa** | O Maranhão com os 217 municípios pintados por população, densidade, área ou crescimento, em cinco faixas. Passe o mouse para ler o valor, clique para abrir o município. SVG desenhado pela aplicação a partir da malha do IBGE. |
-| **Busca e filtro** | Os 217 municípios em uma grade. Busca por nome sem se importar com acento, filtro por mesorregião e ordenação por população, área, densidade ou nome. Os filtros ficam na URL: o resultado é compartilhável por link e o botão voltar desfaz o último filtro. |
+| **Busca e filtro** | Os 217 municípios em uma grade. Busca por nome sem se importar com acento, filtro por mesorregião e ordenação por população, área, densidade, crescimento, perda de população ou nome. Os filtros ficam na URL: o resultado é compartilhável por link e o botão voltar desfaz o último filtro. |
 | **Indicadores** | População, área, densidade e crescimento 2010 a 2022 de cada município, com a posição dele no estado, os vizinhos da microrregião e o lugar dele no mapa. |
 | **Comparação** | Na página de um município, escolha qualquer outro e veja os dois lado a lado. Na página Comparar, escolha os dois livremente, inverta a ordem e compartilhe o par pelo link. |
 | **Minhas cidades** | Marque a estrela em qualquer município e ele fica guardado no navegador, com atalho para comparar os dois primeiros. |
@@ -49,7 +49,7 @@ Os indicadores urbanos dos municípios maranhenses são públicos e existem. Mas
 
 ## Telas
 
-<p align="center"><img src="docs/capturas/inicio.jpg" alt="Página inicial: panorama do estado, o problema em três blocos e os oito municípios mais populosos" width="900"></p>
+<p align="center"><img src="docs/capturas/inicio.jpg" alt="Página inicial: panorama do estado, minhas cidades, o mapa por densidade, a distribuição por tamanho e mesorregião e os oito municípios mais populosos" width="900"></p>
 
 <p align="center"><img src="docs/capturas/mapa.jpg" alt="Mapa do Maranhão com os 217 municípios pintados pela taxa de crescimento 2010 a 2022, em cinco faixas" width="900"></p>
 
@@ -60,6 +60,18 @@ Os indicadores urbanos dos municípios maranhenses são públicos e existem. Mas
 <p align="center"><img src="docs/capturas/tema-escuro.jpg" alt="A mesma página de indicadores no tema escuro, com Imperatriz em foco" width="900"></p>
 
 <p align="center"><img src="docs/capturas/celular.jpg" alt="A aplicação em tela de 360 pixels: página inicial no tema claro e comparação no tema escuro" width="744"></p>
+
+## Para experimentar
+
+| Link | O que mostra |
+|---|---|
+| [cidades-ma.netlify.app/mapa?indicador=crescimento](https://cidades-ma.netlify.app/mapa?indicador=crescimento) | O estado pintado por quem cresce e quem encolhe entre 2010 e 2022 |
+| [/municipios/2103307](https://cidades-ma.netlify.app/municipios/2103307) | Codó: crescimento negativo, vizinhos da microrregião e o lugar no mapa |
+| [/comparar?a=2101202&b=2103307](https://cidades-ma.netlify.app/comparar?a=2101202&b=2103307) | Bacabal contra Codó, em gráfico e tabela |
+| [/municipios?q=sao&regiao=Norte%20Maranhense&ordem=densidade](https://cidades-ma.netlify.app/municipios?q=sao&regiao=Norte%20Maranhense&ordem=densidade) | Busca, filtro e ordenação guardados na URL |
+| [/municipios?ordem=perda](https://cidades-ma.netlify.app/municipios?ordem=perda) | Os municípios que mais perderam população |
+
+Em qualquer página, a tecla `/` leva ao campo de busca; a estrela guarda o município em "Minhas cidades".
 
 ## Como os dados chegam
 
@@ -76,6 +88,8 @@ Nenhuma exige chave de acesso e todas respondem com CORS aberto. O parser que in
 
 ## Como rodar
 
+Requer Node 20 ou superior.
+
 ```bash
 git clone https://github.com/agenciadigitalslz/cidades-ma.git
 cd cidades-ma
@@ -86,11 +100,11 @@ npm run dev
 | Comando | O que faz |
 |---|---|
 | `npm run dev` | Servidor de desenvolvimento com recarga automática |
-| `npm test` | Testes de unidade com Vitest (parser da API, filtros, ordenação, formatação) |
+| `npm test` | 25 testes de unidade com Vitest: parsers das três tabelas, projeção da malha, filtros, ordenação, quantis, distribuição e formatação |
 | `npm run lint` | Análise estática com oxlint |
 | `npm run build` | Gera a pasta `dist/` pronta para publicar |
 | `npm run preview` | Serve a pasta `dist/` localmente |
-| `node scripts/capturas.mjs` | Captura as telas em desktop e celular, nos dois temas, a partir de `dist/` |
+| `node scripts/capturas.mjs` | Captura 16 cenas em desktop e celular, nos dois temas, a partir de `dist/`, com a API ao vivo |
 | `node scripts/imagem-social.mjs` | Regenera a imagem de prévia dos links (`public/og.jpg`) |
 
 ## Estrutura
@@ -139,9 +153,9 @@ Cada componente corresponde a um bloco que a primeira versão do projeto, em HTM
 
 | Requisito | Como foi atendido |
 |---|---|
-| JavaScript ES6+, DOM e eventos | Módulos ES, `async/await`, eventos de formulário, teclado (Escape fecha o menu) e clique tratados em React |
-| Fetch API e JSON | `src/servicos/ibge.js`, duas chamadas em paralelo, tempo limite e tratamento de erro |
-| Componentes | 13 componentes de função, um por bloco visual |
+| JavaScript ES6+, DOM e eventos | Módulos ES, `async/await`, eventos de formulário, teclado (Escape fecha o menu, `/` foca a busca), mouse sobre o mapa, cópia para a área de transferência e Web Share API |
+| Fetch API e JSON | `src/servicos/ibge.js` e `malha.js`: três chamadas em paralelo mais a malha sob demanda, tempo limite, tratamento de erro e reserva local |
+| Componentes | 18 componentes de função, um por bloco visual, mais 6 páginas |
 | Gerenciamento de estado | `useState`, `useReducer` e dois Contexts (dados do IBGE e minhas cidades, esta persistida no navegador); filtros na URL com `useSearchParams` |
 | Navegação e SPA | React Router 7, rota com parâmetro e rota 404; o documento nunca recarrega |
 | Responsividade | Bootstrap 5 e CSS próprio, verificados de 360 a 1440 pixels |
@@ -149,6 +163,13 @@ Cada componente corresponde a um bloco que a primeira versão do projeto, em HTM
 | Mapa e gráficos | SVG desenhados pela própria aplicação, sem biblioteca: malha do IBGE projetada em JavaScript e pintada por quintis; barras com as cores do tema |
 | Testes | 25 testes de unidade sobre as funções puras: parsers da API, projeção da malha, filtros, ordenação, quantis, distribuição e formatação |
 | Publicação | Vite gera `dist/`; Netlify serve com reescrita de rotas |
+
+## Linha do tempo
+
+| Entrega | O que era |
+|---|---|
+| Nota 1 (agosto de 2026) | Quatro páginas em HTML5, CSS3 e Bootstrap, com os dados do Censo gravados nas páginas e a busca só como interface. Cada bloco já vinha marcado com `<!-- Componente: X -->`. |
+| Nota 2 (setembro de 2026) | Os mesmos blocos viram componentes React; os dados passam a vir da API do IBGE ao vivo; entram busca, filtro, comparação, mapa, crescimento, minhas cidades e compartilhamento; publicação no Netlify. |
 
 ## Identidade visual
 
@@ -164,6 +185,6 @@ Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas, UEMA / U
 
 ## Fontes e licenças
 
-- Dados: IBGE, Censo Demográfico 2022, tabela 4714 do SIDRA e API de Localidades. Uso público.
+- Dados: IBGE, Censos Demográficos 2010 e 2022, tabelas 4714 e 4709 do SIDRA, API de Localidades e API de Malhas. Uso público.
 - Bootstrap sob licença MIT. React, Vite e React Router sob licença MIT.
 - Ícones e ilustrações desenhados pela equipe em SVG.
