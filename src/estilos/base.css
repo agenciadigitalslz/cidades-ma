@@ -1,0 +1,311 @@
+/* ==========================================================================
+   base.css - tokens, reset e tipografia
+   Projeto: Cidades MA - Indicadores Urbanos dos Municípios do Maranhão
+   ODS 11 - Cidades e Comunidades Sustentáveis
+   ========================================================================== */
+
+:root {
+  /* Neutros: 70 a 90% dos pixels da tela */
+  --bg: #faf9f6;
+  --surface: #ffffff;
+  --surface-alt: #f4f2ec;
+  --fg: #1c1c1a;
+  --muted: #55534d;
+
+  /* Duas bordas com papéis distintos:
+     - --border separa áreas e é decorativa;
+     - --border-controle desenha campos de formulário, que a WCAG 1.4.11
+       exige em no mínimo 3:1 por identificarem um componente. */
+  --border: #e2dfd8;
+  --border-controle: #8b877d;
+
+  /* Acento único: laranja oficial do ODS 11 (ONU).
+     A versão clara só preenche áreas; para texto e borda funcional
+     usamos a escura, que atinge 6,4:1 sobre fundo claro. */
+  --accent: #fd9d24;
+  --accent-forte: #8a5000;
+
+  /* O topo e laranja nos dois temas, então o texto sobre ele NÃO pode
+     seguir --fg: precisa ser sempre escuro. Estes três tokens são fixos
+     de propósito e não mudam no tema escuro. */
+  --sobre-acento: #3d2600;    /* apoio sobre laranja: 6,79:1 */
+  --sobre-acento-forte: #1c1c1a; /* título sobre laranja: 8,15:1 */
+  --sobre-acento-claro: #faf9f6; /* texto dentro do botão escuro */
+
+  /* Tipografia */
+  --fonte-titulo: Georgia, "Times New Roman", Times, serif;
+  --fonte-corpo: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+
+  /* Escala de espaçamento */
+  --e1: 0.25rem;
+  --e2: 0.5rem;
+  --e3: 1rem;
+  --e4: 1.5rem;
+  --e5: 2.5rem;
+  --e6: 4rem;
+}
+
+/* Tema escuro em três estados, nesta ordem de precedência:
+   1. sem escolha do visitante, segue o sistema operacional;
+   2. escolha explícita pelo botão vence o sistema, nos dois sentidos.
+   Os tokens trocam de valor e todo o restante do CSS segue junto, porque
+   nenhuma regra abaixo usa cor literal. Evita preto e branco puros, que
+   vibram na leitura, e mantém os mesmos papéis semânticos.
+   Sem JavaScript, o item 1 continua valendo: o site nunca fica sem tema. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) {
+    --bg: #15140f;
+    --surface: #1d1c16;
+    --surface-alt: #26241d;
+    --fg: #f2efe6;
+    --muted: #b0aca0;
+    --border: #37342b;
+    --border-controle: #7d7a6e;
+    /* No escuro o laranja claro é que tem contraste; a variante escura
+       usada no tema claro ficaria ilegível aqui. */
+    --accent-forte: #f7b955;
+  }
+}
+
+:root[data-tema="escuro"] {
+  --bg: #15140f;
+  --surface: #1d1c16;
+  --surface-alt: #26241d;
+  --fg: #f2efe6;
+  --muted: #b0aca0;
+  --border: #37342b;
+  --border-controle: #7d7a6e;
+  --accent-forte: #f7b955;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: var(--fonte-corpo);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* --- Títulos ------------------------------------------------------------ */
+
+h1, h2, h3, h4 {
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  color: var(--fg);
+  margin-top: 0;
+  text-wrap: balance;
+}
+
+/* Tracking por tamanho: texto grande precisa fechar, texto pequeno precisa
+   abrir. Título grande sem tracking negativo fica solto e amador. */
+h1 {
+  font-size: clamp(1.9rem, 1.4rem + 2.2vw, 3rem);
+  line-height: 1.12;
+  letter-spacing: -0.022em;
+}
+
+h2 {
+  font-size: clamp(1.4rem, 1.2rem + 1vw, 1.9rem);
+  line-height: 1.2;
+  letter-spacing: -0.012em;
+}
+
+h3 {
+  font-size: 1.15rem;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+}
+
+p { margin-top: 0; }
+
+/* Comprimento de linha confortável: 50 a 75 caracteres.
+   Aplica-se ao texto corrido, não a tabelas nem a grades. */
+.texto-longo p,
+.texto-longo li { max-width: 68ch; }
+
+/* Texto corrido de várias linhas fica justificado, para que a mancha de
+   texto feche alinhada dos dois lados em vez de terminar irregular.
+   hyphens: auto é obrigatório aqui: em português as palavras são longas
+   e, sem hifenização, a justificação abre buracos entre as palavras.
+   Depende do lang="pt-BR" declarado no <html>. */
+.justificado,
+.texto-longo p,
+.bloco-explicativo p,
+.aviso-etapa {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+/* Linhas curtas nunca são justificadas: em uma única linha a justificação
+   não tem efeito, e em duas ela estica os espaços até abrir buracos.
+   A chamada do topo tem de uma a três linhas, então fica alinhada a
+   esquerda mesmo sendo texto corrido. */
+.destaque .chamada,
+.rodape-site p,
+.card-municipio p { text-align: left; hyphens: manual; }
+
+/* --- Links -------------------------------------------------------------- */
+
+a {
+  color: var(--accent-forte);
+  text-underline-offset: 0.2em;
+}
+
+a:hover { color: var(--fg); }
+
+/* Foco sempre visível: remover o contorno sem substituto quebra
+   três critérios da WCAG (1.4.11, 2.4.7 e 2.4.13). */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--accent-forte);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* --- Utilitários do projeto --------------------------------------------- */
+
+/* Atalho para o conteúdo principal: aparece só no foco por teclado. */
+.pular-para-conteudo {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--fg);
+  color: var(--surface);
+  padding: var(--e2) var(--e3);
+  text-decoration: none;
+}
+
+.pular-para-conteudo:focus {
+  left: var(--e3);
+  top: var(--e3);
+  color: var(--surface);
+}
+
+.secao { padding-block: var(--e6); }
+
+.secao-alt {
+  background-color: var(--surface-alt);
+  border-block: 1px solid var(--border);
+}
+
+.chamada {
+  font-size: 1.15rem;
+  color: var(--muted);
+  max-width: 60ch;
+}
+
+.rotulo {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--accent-forte);
+  margin-bottom: var(--e2);
+}
+
+.texto-apoio {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+/* Texto do usuário selecionado herda a identidade do projeto. */
+::selection {
+  background-color: var(--accent);
+  color: #1c1c1a;
+}
+
+/* Âncoras não param colada no topo da janela. */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--e4);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+/* Número em destaque: a família serifada aproxima o dado do título,
+   reforçando que o dado e o conteúdo principal da página.
+   tabular-nums trava a largura dos dígitos, para que números empilhados
+   alinhem coluna a coluna em vez de dançar conforme o algarismo. */
+.numero {
+  font-family: var(--fonte-titulo);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+  display: block;
+}
+
+.unidade {
+  font-size: 0.85rem;
+  letter-spacing: 0.012em;
+  color: var(--muted);
+}
+
+/* Alvos de toque com no mínimo 44px de altura (WCAG 2.5.5, nível AAA). */
+.btn,
+.form-control,
+.form-select { min-height: 44px; }
+
+/* A borda padrão do Bootstrap para campos fica em 1,5:1 sobre branco.
+   Substituída pela borda de controle, que atinge 3,58:1. */
+.form-control,
+.form-select { border-color: var(--border-controle); }
+
+.form-control::placeholder { color: var(--muted); }
+
+.btn-ods {
+  background-color: var(--accent);
+  border: 1px solid var(--accent);
+  color: #1c1c1a;
+  font-weight: 600;
+}
+
+.btn-ods:hover,
+.btn-ods:focus {
+  background-color: #e88c14;
+  border-color: #e88c14;
+  color: #1c1c1a;
+}
+
+.btn-neutro {
+  background-color: transparent;
+  border: 1px solid var(--fg);
+  color: var(--fg);
+  font-weight: 600;
+}
+
+.btn-neutro:hover,
+.btn-neutro:focus {
+  background-color: var(--fg);
+  color: var(--surface);
+}
+
+/* Ação principal sobre o fundo laranja: solida e escura.
+   Um botão laranja desapareceria ali; este fica em 8,15:1 contra o fundo. */
+.btn-contraste {
+  background-color: var(--fg);
+  border: 1px solid var(--fg);
+  color: var(--bg);
+  font-weight: 600;
+}
+
+.btn-contraste:hover,
+.btn-contraste:focus {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
+}

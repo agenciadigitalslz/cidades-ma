@@ -1,0 +1,686 @@
+/* ==========================================================================
+   componentes.css - blocos reutilizáveis
+   Cada bloco abaixo corresponde a um marcador <!-- Componente: X --> no HTML
+   e vira um componente React na Nota 2.
+   ========================================================================== */
+
+/* --- Componente: CabecalhoSite ------------------------------------------ */
+
+.cabecalho-site {
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.cabecalho-site .navbar-brand {
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--fg);
+  display: flex;
+  align-items: center;
+  gap: var(--e2);
+}
+
+.cabecalho-site .navbar-brand:hover { color: var(--fg); }
+
+/* Marca: a silhueta urbana no lugar da sigla. Repete o ícone usado na
+   página e na marca d'água, então o símbolo do projeto é sempre o mesmo. */
+.marca-sigla {
+  background-color: var(--accent);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.marca-sigla svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: #1c1c1a;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* --- Componente: BotaoTema ---------------------------------------------- */
+
+/* Alterna claro e escuro. Só aparece quando há JavaScript: sem ele, o site
+   segue a preferência do sistema e um botão inerte seria uma promessa falsa.
+   Por isso o botão nasce oculto e o script o revela. */
+.botao-tema {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  margin-left: var(--e2);
+  background: transparent;
+  border: 1px solid var(--border-controle);
+  border-radius: 5px;
+  color: var(--fg);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.js .botao-tema { display: inline-flex; }
+
+.botao-tema:hover {
+  background-color: var(--surface-alt);
+  border-color: var(--fg);
+}
+
+.botao-tema svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Mostra o sol no tema escuro (ação: clarear) e a lua no claro. */
+.botao-tema .icone-sol { display: none; }
+:root[data-tema="escuro"] .botao-tema .icone-sol { display: block; }
+:root[data-tema="escuro"] .botao-tema .icone-lua { display: none; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) .botao-tema .icone-sol { display: block; }
+  :root:not([data-tema="claro"]) .botao-tema .icone-lua { display: none; }
+}
+
+.cabecalho-site .nav-link {
+  color: var(--muted);
+  font-weight: 500;
+  padding-inline: var(--e3);
+}
+
+.cabecalho-site .nav-link:hover { color: var(--fg); }
+
+/* Página atual: sublinhado espesso em vez de cor, para não gastar
+   um dos dois usos de acento permitidos por tela. */
+.cabecalho-site .nav-link[aria-current="page"] {
+  color: var(--fg);
+  font-weight: 600;
+  box-shadow: inset 0 -3px 0 0 var(--accent);
+}
+
+/* --- Componente: Destaque (topo das páginas) ---------------------------- */
+
+/* O topo usa o laranja oficial do ODS 11 como fundo cheio: é o único bloco
+   da página em cor, o que dá hierarquia imediata e identifica o objetivo
+   sem precisar de imagem. Todo o texto sobre ele é escuro, porque branco
+   sobre esse laranja fica em 2,09:1 e reprovaria na WCAG. */
+.destaque {
+  position: relative;
+  overflow: hidden;
+  padding-block: var(--e6);
+  background-color: var(--accent);
+  border-bottom: 1px solid #e0891a;
+  color: var(--sobre-acento);
+}
+
+/* --- Componente: MarcaDagua --------------------------------------------- */
+
+/* Silhueta urbana ancorada no canto inferior direito do topo. Fica atrás
+   do conteúdo e em opacidade baixa: dá textura ao bloco de cor sem
+   competir com o texto nem alterar o contraste medido. */
+.marca-dagua {
+  position: absolute;
+  right: -2%;
+  bottom: -12%;
+  width: min(46%, 460px);
+  height: auto;
+  fill: none;
+  stroke: var(--sobre-acento-forte);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.11;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* O conteúdo sobe acima da marca d'água. */
+.destaque > .container { position: relative; z-index: 1; }
+
+/* Em tela estreita a marca d'água atravessaria o texto: some. */
+@media (max-width: 991.98px) {
+  .marca-dagua { display: none; }
+}
+
+.destaque h1 {
+  margin-bottom: var(--e3);
+  color: var(--sobre-acento-forte);
+}
+
+.destaque .rotulo { color: var(--sobre-acento); }
+
+.destaque .chamada { color: var(--sobre-acento); }
+
+.destaque a:not(.btn) { color: var(--sobre-acento-forte); }
+
+.destaque a:focus-visible,
+.destaque button:focus-visible { outline-color: var(--sobre-acento-forte); }
+
+/* A ação principal do topo é sempre escura, nos dois temas: é o único
+   jeito de ela se destacar de um fundo laranja claro. */
+.destaque .btn-contraste {
+  background-color: var(--sobre-acento-forte);
+  border-color: var(--sobre-acento-forte);
+  color: var(--sobre-acento-claro);
+}
+
+.destaque .btn-contraste:hover,
+.destaque .btn-contraste:focus {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+/* --- Componente: PainelResumo ------------------------------------------- */
+
+/* Ocupa o lado direito do topo. Em vez de imagem decorativa, o espaço
+   carrega o dado que resume o estado inteiro: o próprio conteúdo do
+   produto serve de ilustração. */
+.painel-resumo {
+  background-color: rgb(255 255 255 / 0.22);
+  border: 1px solid rgb(28 28 26 / 0.16);
+  padding: var(--e4);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--e3);
+}
+
+.painel-resumo > div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--e3);
+  border-bottom: 1px solid rgb(28 28 26 / 0.14);
+  padding-bottom: var(--e2);
+}
+
+.painel-resumo > div:last-of-type { border-bottom: 0; padding-bottom: 0; }
+
+.painel-resumo dt {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--sobre-acento);
+}
+
+.painel-resumo dd {
+  margin: 0;
+  font-family: var(--fonte-titulo);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  color: var(--sobre-acento-forte);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+  white-space: nowrap;
+}
+
+.painel-resumo dd .un {
+  font-family: var(--fonte-corpo);
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--sobre-acento);
+}
+
+.painel-resumo .fonte {
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.012em;
+  color: var(--sobre-acento);
+}
+
+/* --- Componente: CardIndicador ------------------------------------------ */
+
+.card-indicador {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  padding: var(--e4);
+  height: 100%;
+}
+
+/* Caixa alta exige tracking de 0.06em ou mais: sem isso as letras colidem
+   e o rótulo denuncia falta de acabamento tipográfico. */
+.card-indicador dt {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: var(--e2);
+}
+
+.card-indicador dd { margin: 0; }
+
+/* --- Componente: CardMunicipio ------------------------------------------ */
+
+/* O cartão inteiro é a área de clique, não apenas o nome: alvo maior
+   cumpre a lei de Fitts e evita a mira no texto pequeno.
+   position: relative ancora o .stretched-link do Bootstrap. */
+.card-municipio {
+  position: relative;
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  padding: var(--e3);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--e1);
+  cursor: pointer;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.card-municipio:hover {
+  border-color: var(--fg);
+  box-shadow: 0 2px 10px rgb(0 0 0 / 0.07);
+  transform: translateY(-2px);
+}
+
+/* Quando o link interno recebe foco por teclado, o contorno aparece no
+   cartão inteiro: o usuário de teclado vê a mesma área que o de mouse. */
+.card-municipio:has(a:focus-visible) {
+  outline: 3px solid var(--accent-forte);
+  outline-offset: 2px;
+}
+
+.card-municipio:has(a:focus-visible) a { outline: none; }
+
+/* Posição no ranking estadual. Fica no canto, discreta: orienta a leitura
+   da grade sem disputar com o nome do município. */
+.card-municipio .posicao {
+  position: absolute;
+  top: var(--e2);
+  right: var(--e3);
+  margin: 0;
+  font-family: var(--fonte-titulo);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.card-municipio h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0;
+  padding-right: 2.2rem;
+}
+
+/* --- Componente: BarraProporcao ----------------------------------------- */
+
+/* Le a população de relance: o comprimento da barra compara o município
+   com o maior do estado. O valor exato já está no texto acima. */
+.barra-proporcao {
+  margin: var(--e2) 0 0;
+  height: 4px;
+  background-color: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.barra-proporcao span {
+  display: block;
+  height: 100%;
+  width: var(--proporcao, 0%);
+  background-color: var(--accent);
+  border-radius: 2px;
+}
+
+.card-municipio h3 a {
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.card-municipio:hover h3 a { text-decoration: underline; }
+
+.card-municipio .populacao {
+  font-family: var(--fonte-titulo);
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+.card-municipio .regiao {
+  font-size: 0.82rem;
+  letter-spacing: 0.012em;
+  color: var(--muted);
+  margin-top: auto;
+  padding-top: var(--e2);
+}
+
+/* --- Componente: BlocoExplicativo --------------------------------------- */
+
+.bloco-explicativo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--e2);
+}
+
+/* Ícone monoline: 1.7px de traço, herda a cor do texto.
+   Nunca usar emoji como ícone de seção. */
+.bloco-explicativo .icone {
+  width: 32px;
+  height: 32px;
+  stroke: var(--accent-forte);
+  stroke-width: 1.7;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bloco-explicativo h3 { margin-bottom: 0; }
+
+/* --- Componente: TabelaComparativa -------------------------------------- */
+
+.tabela-comparativa {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--surface);
+}
+
+.tabela-comparativa caption {
+  caption-side: top;
+  text-align: left;
+  padding-bottom: var(--e2);
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.tabela-comparativa th,
+.tabela-comparativa td {
+  padding: var(--e2) var(--e3);
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.tabela-comparativa thead th {
+  background-color: var(--surface-alt);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+
+/* Coluna de número alinhada a direita e com dígitos de largura fixa:
+   e o que permite comparar ordens de grandeza percorrendo a coluna. */
+.tabela-comparativa td.numerico,
+.tabela-comparativa th.numerico {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+.tabela-comparativa tbody tr:hover { background-color: var(--surface-alt); }
+
+/* Linha do município em foco na comparação. A barra lateral carrega o
+   destaque junto com o fundo, para não depender só de cor. */
+.tabela-comparativa tbody tr.destacada {
+  background-color: var(--surface-alt);
+  font-weight: 600;
+  box-shadow: inset 3px 0 0 0 var(--accent);
+}
+
+/* --- Componente: BarraBusca --------------------------------------------- */
+
+.barra-busca {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  padding: var(--e3);
+}
+
+.barra-busca label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: var(--e1);
+  display: block;
+}
+
+/* --- Componente: AvisoEtapa --------------------------------------------- */
+
+/* Sinaliza no próprio site o que ainda não é funcional nesta entrega. */
+.aviso-etapa {
+  background-color: var(--surface-alt);
+  border-left: 4px solid var(--accent);
+  padding: var(--e3);
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.aviso-etapa strong { color: var(--fg); }
+
+/* --- Componente: RodapeSite --------------------------------------------- */
+
+/* Rodape na mesma família visual do resto: usa os tokens do tema, então
+   acompanha claro e escuro. A faixa superior na cor do ODS fecha a página
+   ecoando o topo, sem o peso de um bloco preto solido. */
+.rodape-site {
+  background-color: var(--surface-alt);
+  color: var(--muted);
+  border-top: 3px solid var(--accent);
+  padding-block: var(--e5);
+  margin-top: var(--e6);
+  font-size: 0.92rem;
+}
+
+.rodape-site h2 {
+  color: var(--fg);
+  font-size: 0.82rem;
+  font-family: var(--fonte-corpo);
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: var(--e2);
+}
+
+.rodape-site p { margin-bottom: var(--e2); }
+
+.rodape-site p:last-child { margin-bottom: 0; }
+
+.rodape-site .marca-rodape {
+  font-family: var(--fonte-titulo);
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  color: var(--fg);
+  margin-bottom: var(--e2);
+  text-transform: none;
+}
+
+.rodape-site a {
+  color: var(--accent-forte);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.rodape-site a:hover { color: var(--fg); }
+
+.rodape-site .creditos {
+  border-top: 1px solid var(--border);
+  margin-top: var(--e4);
+  padding-top: var(--e3);
+  font-size: 0.85rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--e1) var(--e3);
+  justify-content: space-between;
+}
+
+.rodape-site .creditos p { margin: 0; }
+
+/* --- Responsivo --------------------------------------------------------- */
+
+@media (max-width: 575.98px) {
+  .secao { padding-block: var(--e5); }
+  .destaque { padding-block: var(--e5); }
+  .numero { font-size: 1.7rem; }
+
+  /* Em telas estreitas a tabela rola no próprio contêiner,
+     em vez de fazer a página inteira rolar na horizontal. */
+  .rolagem-tabela {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-municipio { transition: none; }
+  .card-municipio:hover { transform: none; }
+}
+
+/* --- Impressão ----------------------------------------------------------
+   Trabalho academico costuma ser impresso ou virar PDF. Sem esta folha,
+   o topo laranja consome tinta e a navegação imprime sem servir para nada. */
+
+@media print {
+  @page { margin: 2cm; }
+
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 11pt;
+  }
+
+  /* Navegação, busca e filtros não existem no papel. */
+  .cabecalho-site,
+  .barra-busca,
+  .pular-para-conteudo,
+  .btn { display: none; }
+
+  .destaque {
+    background: #fff;
+    color: #000;
+    border-bottom: 2px solid #000;
+    padding-block: 0 1rem;
+  }
+
+  .destaque h1,
+  .destaque .rotulo,
+  .destaque .chamada { color: #000; }
+
+  .secao { padding-block: 1rem; }
+
+  .secao-alt,
+  .card-indicador,
+  .card-municipio,
+  .aviso-etapa {
+    background: #fff;
+    border: 1px solid #999;
+    box-shadow: none;
+  }
+
+  .rodape-site {
+    background: #fff;
+    color: #000;
+    border-top: 1px solid #999;
+    margin-top: 1rem;
+  }
+
+  .rodape-site h2,
+  .rodape-site a,
+  .rodape-site .creditos { color: #000; }
+
+  /* No papel o endereco do link precisa aparecer, senao a referência se perde. */
+  main a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    word-break: break-all;
+  }
+
+  /* Não quebrar cartão nem linha de tabela entre páginas. */
+  .card-indicador,
+  .card-municipio,
+  .tabela-comparativa tr { break-inside: avoid; }
+
+  .tabela-comparativa thead { display: table-header-group; }
+
+  h2, h3 { break-after: avoid; }
+}
+
+/* ==========================================================================
+   Acréscimos da Nota 2 (React): gráfico comparativo, estado dos dados,
+   navegação de página única.
+   ========================================================================== */
+
+/* --- Componente: GraficoBarras ------------------------------------------ */
+
+/* SVG que ocupa a largura da coluna e escala com ela. As cores vêm dos
+   tokens, então o gráfico acompanha o tema claro e o escuro. */
+.grafico-barras {
+  margin: 0 0 var(--e4);
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  padding: var(--e3) var(--e3) var(--e2);
+}
+
+.grafico-barras svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: var(--fonte-corpo);
+}
+
+.grafico-barras .titulo-grupo {
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  font-size: 15px;
+  fill: var(--fg);
+}
+
+.grafico-barras .unidade-grupo {
+  font-family: var(--fonte-corpo);
+  font-weight: 400;
+  font-size: 12px;
+  fill: var(--muted);
+}
+
+.grafico-barras .rotulo-barra {
+  font-size: 13px;
+  fill: var(--fg);
+}
+
+.grafico-barras .valor-barra {
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  fill: var(--fg);
+}
+
+/* Município em foco na cor do ODS; o comparado em neutro, para que a
+   relação entre os dois se leia sem legenda. */
+.grafico-barras .barra-a { fill: var(--accent); }
+.grafico-barras .barra-b { fill: var(--border-controle); }
+
+/* --- Componente: EstadoDados -------------------------------------------- */
+
+.aviso-etapa .btn-sm { min-height: 32px; }
+
+/* --- Navegação de página única ------------------------------------------ */
+
+/* O React Router marca o link da rota atual com aria-current="page" e a
+   classe active; o sublinhado já vem da regra do cabeçalho. Só garantimos
+   que o menu aberto por estado se comporte como o do Bootstrap. */
+.navbar-collapse.show { display: flex; }
+
+/* Nome do município em foco na tabela, sem link para si mesmo. */
+.tabela-comparativa tbody th a {
+  color: var(--accent-forte);
+}
+
+/* Botões de ação do topo em telas estreitas empilham com respiro. */
+@media (max-width: 575.98px) {
+  .destaque .btn + .btn { margin-top: var(--e2); }
+  .grafico-barras { padding-inline: var(--e2); }
+}
