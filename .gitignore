@@ -18,7 +18,7 @@ nota2-dev-web.md
 *.bak-*
 
 # Prova visual e perfil do Chrome usados pelo script de capturas
-capturas
+/capturas
 .chrome-capturas
 
 # Registros
