@@ -23,7 +23,9 @@ export default function RodapeSite() {
               Tabela 4714 do SIDRA, via API pública
             </p>
             <p>
-              <a href="https://cidades.ibge.gov.br/" rel="noopener">Consultar no IBGE Cidades</a>
+              <a href="https://cidades.ibge.gov.br/" target="_blank" rel="noopener noreferrer">
+                Consultar no IBGE Cidades
+              </a>
             </p>
           </div>
           <div className="col-6 col-md-4">
@@ -32,6 +34,8 @@ export default function RodapeSite() {
               <Link to="/">Início</Link>
               <br />
               <Link to="/municipios">Municípios</Link>
+              <br />
+              <Link to="/comparar">Comparar</Link>
               <br />
               <Link to="/sobre">Sobre o projeto</Link>
             </p>

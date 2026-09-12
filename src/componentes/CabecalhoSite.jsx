@@ -6,6 +6,7 @@ import { IconeCidade } from './Icones.jsx';
 const LINKS = [
   { para: '/', rotulo: 'Início', exato: true },
   { para: '/municipios', rotulo: 'Municípios' },
+  { para: '/comparar', rotulo: 'Comparar' },
   { para: '/sobre', rotulo: 'Sobre' },
 ];
 

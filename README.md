@@ -39,7 +39,7 @@ Os indicadores urbanos dos municípios maranhenses são públicos e existem. Mas
 |---|---|
 | **Busca e filtro** | Os 217 municípios em uma grade. Busca por nome sem se importar com acento, filtro por mesorregião e ordenação por população, área, densidade ou nome. Os filtros ficam na URL: o resultado é compartilhável por link e o botão voltar desfaz o último filtro. |
 | **Indicadores** | População, área e densidade de cada município, com a posição dele no estado e a fração do total maranhense. |
-| **Comparação** | Escolha qualquer outro município e veja os dois lado a lado, em gráfico de barras e em tabela. |
+| **Comparação** | Na página de um município, escolha qualquer outro e veja os dois lado a lado. Na página Comparar, escolha os dois livremente, inverta a ordem e compartilhe o par pelo link. |
 | **Tema claro e escuro** | Segue a preferência do sistema e aceita a escolha manual, lembrada no navegador. |
 | **Dados ao vivo, com reserva** | A cada abertura, a aplicação consulta a API do IBGE. Se ela não responder em dez segundos, usa uma cópia dos mesmos dados gravada no pacote e avisa na tela. |
 
@@ -106,7 +106,7 @@ cidades-ma/
     │                               BlocoExplicativo, CardMunicipio, CardIndicador,
     │                               TabelaComparativa, BarraBusca, GraficoBarras,
     │                               EstadoDados, RodapeSite, Icones
-    ├── paginas/                    Inicio, Municipios, Indicadores, Sobre, NaoEncontrada
+    ├── paginas/                    Inicio, Municipios, Indicadores, Comparar, Sobre, NaoEncontrada
     ├── estilos/                    base.css (tokens, tipografia) e componentes.css
     └── dados/municipios_ma.json    Cópia local do Censo 2022, usada só em reserva
 ```
@@ -120,6 +120,7 @@ Cada componente corresponde a um bloco que a primeira versão do projeto, em HTM
 | `/` | Início: panorama do estado e os oito municípios mais populosos |
 | `/municipios` | Grade com busca, filtro e ordenação (`?q=`, `?regiao=`, `?ordem=`) |
 | `/municipios/:id` | Indicadores do município e comparação com outro |
+| `/comparar` | Comparação livre entre dois municípios quaisquer (`?a=` e `?b=`), compartilhável por link |
 | `/sobre` | Problema, ODS, público-alvo, fontes e equipe |
 
 ## Tecnologias e decisões

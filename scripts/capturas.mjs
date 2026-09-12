@@ -103,6 +103,7 @@ const CENAS = [
   { nome: '08-municipios-360', rota: '/municipios?q=imp', largura: 360, altura: 780, movel: true },
   { nome: '09-indicadores-360-escuro', rota: '/municipios/2111300', largura: 360, altura: 780, movel: true, tema: 'escuro' },
   { nome: '10-menu-aberto-360', rota: '/sobre', largura: 360, altura: 780, movel: true, abrirMenu: true },
+  { nome: '12-comparar-bacabal-codo', rota: '/comparar?a=2101202&b=2103307', largura: 1440, altura: 900 },
   { nome: '11-rota-inexistente', rota: '/nao-existe', largura: 1024, altura: 700 },
 ];
 

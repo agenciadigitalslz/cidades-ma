@@ -66,9 +66,10 @@ export default function Indicadores() {
             <a
               className="btn btn-neutro px-4"
               href={`https://cidades.ibge.gov.br/brasil/ma/${slug(foco.nome)}/panorama`}
-              rel="noopener"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Ver no IBGE Cidades
+              Ver no IBGE Cidades <span className="visually-hidden">(abre em nova aba)</span>
             </a>
           </>
         }
@@ -127,6 +128,15 @@ export default function Indicadores() {
                     </option>
                   ))}
               </select>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <p className="texto-apoio mb-0">
+                Quer comparar outro par?{' '}
+                <Link to={comparado ? `/comparar?a=${foco.id}&b=${comparado.id}` : '/comparar'}>
+                  Abrir a comparação livre
+                </Link>
+                , com qualquer dois municípios e um link para compartilhar.
+              </p>
             </div>
           </div>
 

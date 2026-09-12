@@ -59,11 +59,11 @@ export default function Sobre() {
               <ul>
                 <li>
                   Relação dos municípios do Maranhão, com micro e mesorregião:{' '}
-                  <a href={URL_LOCALIDADES} rel="noopener">API de Localidades</a>
+                  <a href={URL_LOCALIDADES} target="_blank" rel="noopener noreferrer">API de Localidades</a>
                 </li>
                 <li>
                   População residente, área territorial e densidade demográfica do Censo 2022,
-                  tabela 4714 do SIDRA: <a href={URL_CENSO} rel="noopener">API de Agregados</a>
+                  tabela 4714 do SIDRA: <a href={URL_CENSO} target="_blank" rel="noopener noreferrer">API de Agregados</a>
                 </li>
               </ul>
               <p>

@@ -4,6 +4,7 @@ import RodapeSite from './componentes/RodapeSite.jsx';
 import Inicio from './paginas/Inicio.jsx';
 import Municipios from './paginas/Municipios.jsx';
 import Indicadores from './paginas/Indicadores.jsx';
+import Comparar from './paginas/Comparar.jsx';
 import Sobre from './paginas/Sobre.jsx';
 import NaoEncontrada from './paginas/NaoEncontrada.jsx';
 
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/" element={<Inicio />} />
           <Route path="/municipios" element={<Municipios />} />
           <Route path="/municipios/:id" element={<Indicadores />} />
+          <Route path="/comparar" element={<Comparar />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="*" element={<NaoEncontrada />} />
         </Routes>
