@@ -684,3 +684,25 @@
   .destaque .btn + .btn { margin-top: var(--e2); }
   .grafico-barras { padding-inline: var(--e2); }
 }
+
+/* Campos de formulário acompanham o tema: sem isto o Bootstrap mantém o
+   fundo branco no escuro e o campo vira um bloco aceso na tela. */
+.form-control,
+.form-select {
+  background-color: var(--surface);
+  color: var(--fg);
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: var(--surface);
+  color: var(--fg);
+  border-color: var(--accent-forte);
+  box-shadow: none;
+}
+
+
+/* Em tela estreita o gráfico não encolhe até ficar ilegível: mantém uma
+   largura mínima e rola dentro do próprio quadro, como a tabela. */
+.grafico-barras { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.grafico-barras svg { min-width: 540px; }
