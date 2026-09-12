@@ -2,11 +2,12 @@ import { useMemo } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { useMunicipios } from '../contexto/dadosContexto.js';
 import { useTitulo } from '../hooks/useTitulo.js';
-import { nInt, nDec, ordinal } from '../servicos/formatar.js';
+import { nInt, nDec, nSinal, ordinal } from '../servicos/formatar.js';
 import { ordenar, porId, posicaoPorPopulacao } from '../servicos/municipios.js';
 import Destaque from '../componentes/Destaque.jsx';
 import GraficoBarras from '../componentes/GraficoBarras.jsx';
 import TabelaComparativa from '../componentes/TabelaComparativa.jsx';
+import BotaoCompartilhar from '../componentes/BotaoCompartilhar.jsx';
 import EstadoDados from '../componentes/EstadoDados.jsx';
 
 const INDICADORES = [
@@ -47,7 +48,8 @@ export default function Comparar() {
       <Destaque
         rotulo="Comparação livre"
         titulo={titulo}
-        chamada="Escolha dois municípios quaisquer do Maranhão e veja população, área e densidade lado a lado. O endereço desta página guarda o par escolhido."
+        chamada="Escolha dois municípios quaisquer do Maranhão e veja população, área, densidade e crescimento lado a lado. O endereço desta página guarda o par escolhido."
+        acoes={a && b && <BotaoCompartilhar titulo={`${a.nome} e ${b.nome} em números`} texto={`Comparação entre ${a.nome} e ${b.nome} com dados do Censo 2022.`} />}
       />
 
       <section className="secao">
@@ -100,6 +102,7 @@ export default function Comparar() {
                         <span className="unidade">{m.mesorregiao}</span>
                         <p className="texto-apoio mt-2 mb-0">
                           {nInt(m.populacao)} habitantes em {nDec(m.area)} km², {nDec(m.densidade, 2)} hab/km².
+                          Crescimento de {nSinal(m.crescimento)}% ao ano entre 2010 e 2022.
                         </p>
                       </dd>
                     </dl>
@@ -116,7 +119,7 @@ export default function Comparar() {
               <TabelaComparativa
                 municipios={[a, b]}
                 focoId={a.id}
-                legenda="População, área e densidade demográfica. Fonte: IBGE, Censo Demográfico 2022."
+                legenda="População, área, densidade e crescimento. Fonte: IBGE, Censos 2010 e 2022."
               />
             </>
           )}

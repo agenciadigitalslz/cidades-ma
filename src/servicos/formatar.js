@@ -9,6 +9,10 @@ export const nDec = (n, casas = 1) =>
     ? '-'
     : n.toLocaleString('pt-BR', { minimumFractionDigits: casas, maximumFractionDigits: casas });
 
+/* Número com sinal explícito, para taxas de crescimento: "+0,18" ou "-0,27". */
+export const nSinal = (n, casas = 2) =>
+  n == null || Number.isNaN(n) ? '-' : `${n > 0 ? '+' : ''}${nDec(n, casas)}`;
+
 /* Remove acentos e caixa: "São Luís" e "sao luis" precisam casar na busca. */
 export const normalizar = (texto) =>
   String(texto ?? '')
@@ -20,4 +24,4 @@ export const normalizar = (texto) =>
 /* Identificador legível para URLs externas, como o IBGE Cidades. */
 export const slug = (nome) => normalizar(nome).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
-export const ordinal = (n) => `${n}º`;
+export const ordinal = (n) => (n == null ? '-' : `${n}º`);

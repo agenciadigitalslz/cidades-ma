@@ -1,5 +1,8 @@
 import { describe, it, expect } from 'vitest';
-import { interpretarLocalidades, interpretarCenso, combinar, buscarMunicipios, URL_LOCALIDADES, URL_CENSO } from './ibge.js';
+import {
+  interpretarLocalidades, interpretarCenso, combinar, buscarMunicipios,
+  URL_LOCALIDADES, URL_CENSO, URL_CRESCIMENTO,
+} from './ibge.js';
 
 const localidades = [
   { id: 2111300, nome: 'São Luís', microrregiao: { nome: 'Aglomeração Urbana de São Luís', mesorregiao: { nome: 'Norte Maranhense' } } },
@@ -20,6 +23,16 @@ const censo = [
   ] }] },
 ];
 
+const crescimento = [
+  { id: '5936', variavel: 'Variação', resultados: [{ series: [
+    { localidade: { id: '2111300' }, serie: { 2022: '22446' } },
+  ] }] },
+  { id: '10605', variavel: 'Taxa', resultados: [{ series: [
+    { localidade: { id: '2111300' }, serie: { 2022: '0.18' } },
+    { localidade: { id: '2105302' }, serie: { 2022: '-0.27' } },
+  ] }] },
+];
+
 describe('interpretarLocalidades', () => {
   it('extrai id como texto, nome, microrregião e mesorregião', () => {
     const r = interpretarLocalidades(localidades);
@@ -36,27 +49,34 @@ describe('interpretarCenso', () => {
     expect(m.get('2111300')).toEqual({ populacao: 1037775, area: 583.063, densidade: 1779.87 });
     expect(m.get('2105302')).toEqual({ populacao: 273110, area: null });
   });
+  it('lê também a tabela de crescimento, inclusive taxa negativa', () => {
+    const m = interpretarCenso(crescimento);
+    expect(m.get('2111300')).toEqual({ variacao: 22446, crescimento: 0.18 });
+    expect(m.get('2105302')).toEqual({ crescimento: -0.27 });
+  });
 });
 
 describe('combinar', () => {
-  it('junta pelo código e ordena por população', () => {
-    const r = combinar(interpretarLocalidades(localidades), interpretarCenso(censo));
+  it('junta as fontes pelo código, completa com null e ordena por população', () => {
+    const r = combinar(interpretarLocalidades(localidades), interpretarCenso(censo), interpretarCenso(crescimento));
     expect(r.map((m) => m.nome)).toEqual(['São Luís', 'Imperatriz']);
-    expect(r[1].densidade).toBeNull();
+    expect(r[0].crescimento).toBe(0.18);
+    expect(r[1]).toMatchObject({ densidade: null, variacao: null, crescimento: -0.27 });
   });
 });
 
 describe('buscarMunicipios', () => {
-  it('chama as duas URLs e devolve a lista combinada', async () => {
+  it('chama as três URLs e devolve a lista combinada', async () => {
     const chamadas = [];
+    const respostas = { [URL_LOCALIDADES]: localidades, [URL_CENSO]: censo, [URL_CRESCIMENTO]: crescimento };
     const fetchFn = async (url) => {
       chamadas.push(url);
-      return { ok: true, json: async () => (url === URL_LOCALIDADES ? localidades : censo) };
+      return { ok: true, json: async () => respostas[url] };
     };
     const r = await buscarMunicipios({ fetchFn });
-    expect(chamadas).toEqual(expect.arrayContaining([URL_LOCALIDADES, URL_CENSO]));
+    expect(chamadas).toEqual(expect.arrayContaining([URL_LOCALIDADES, URL_CENSO, URL_CRESCIMENTO]));
     expect(r).toHaveLength(2);
-    expect(r[0].populacao).toBe(1037775);
+    expect(r[0]).toMatchObject({ populacao: 1037775, crescimento: 0.18, variacao: 22446 });
   });
   it('propaga erro HTTP para quem chama decidir a reserva', async () => {
     const fetchFn = async () => ({ ok: false, status: 503, json: async () => ({}) });

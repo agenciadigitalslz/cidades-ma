@@ -3,7 +3,7 @@ import { CRITERIOS } from '../servicos/municipios.js';
 /* Busca, filtro e ordenação. Componente controlado: quem usa guarda o estado
    (na página de municípios, ele vive na URL, para que o resultado seja
    compartilhável e o botão voltar funcione). */
-export default function BarraBusca({ termo, mesorregiao, ordem, mesorregioes, aoMudar, resultado }) {
+export default function BarraBusca({ termo, mesorregiao, ordem, mesorregioes, aoMudar, resultado, soMinhas = false, temFavoritos = false }) {
   return (
     <form className="barra-busca mb-4" role="search" onSubmit={(e) => e.preventDefault()}>
       <div className="row g-3 align-items-end">
@@ -43,9 +43,23 @@ export default function BarraBusca({ termo, mesorregiao, ordem, mesorregioes, ao
           </select>
         </div>
       </div>
-      <p className="texto-apoio mt-3 mb-0" id="busca-resultado" aria-live="polite">
-        {resultado}
-      </p>
+      <div className="d-flex flex-wrap align-items-center justify-content-between gap-2 mt-3">
+        <p className="texto-apoio mb-0" id="busca-resultado" aria-live="polite">
+          {resultado}
+        </p>
+        {temFavoritos && (
+          <div className="form-check mb-0">
+            <input
+              className="form-check-input"
+              type="checkbox"
+              id="so-minhas"
+              checked={soMinhas}
+              onChange={(e) => aoMudar({ soMinhas: e.target.checked })}
+            />
+            <label className="form-check-label" htmlFor="so-minhas">Só as minhas cidades</label>
+          </div>
+        )}
+      </div>
     </form>
   );
 }

@@ -1,5 +1,6 @@
 import { useTitulo } from '../hooks/useTitulo.js';
-import { URL_LOCALIDADES, URL_CENSO } from '../servicos/ibge.js';
+import { URL_LOCALIDADES, URL_CENSO, URL_CRESCIMENTO } from '../servicos/ibge.js';
+import { URL_MALHA } from '../servicos/malha.js';
 import Destaque from '../componentes/Destaque.jsx';
 
 export default function Sobre() {
@@ -53,7 +54,7 @@ export default function Sobre() {
             <div className="col-12 col-lg-5 texto-longo">
               <h2>Como os dados chegam</h2>
               <p>
-                Ao abrir a aplicação, o navegador faz duas consultas em paralelo à API pública do
+                Ao abrir a aplicação, o navegador faz três consultas em paralelo à API pública do
                 IBGE, com a Fetch API, e combina as respostas em JSON pelo código do município:
               </p>
               <ul>
@@ -64,6 +65,14 @@ export default function Sobre() {
                 <li>
                   População residente, área territorial e densidade demográfica do Censo 2022,
                   tabela 4714 do SIDRA: <a href={URL_CENSO} target="_blank" rel="noopener noreferrer">API de Agregados</a>
+                </li>
+                <li>
+                  Variação da população e taxa de crescimento anual entre 2010 e 2022, tabela 4709 do
+                  SIDRA: <a href={URL_CRESCIMENTO} target="_blank" rel="noopener noreferrer">API de Agregados</a>
+                </li>
+                <li>
+                  Contorno dos municípios para o mapa, em GeoJSON:{' '}
+                  <a href={URL_MALHA} target="_blank" rel="noopener noreferrer">API de Malhas</a>
                 </li>
               </ul>
               <p>
@@ -77,7 +86,8 @@ export default function Sobre() {
                 A primeira versão foi construída com HTML5 semântico, CSS3 e Bootstrap 5. Nesta
                 segunda versão, a aplicação foi reorganizada em React, com componentes, estado
                 compartilhado por contexto, navegação de página única com React Router e
-                empacotamento com Vite. A cor de destaque reproduz o laranja oficial do ODS 11.
+                empacotamento com Vite. O mapa e os gráficos são SVG desenhados pela própria
+                aplicação, sem biblioteca. A cor de destaque reproduz o laranja oficial do ODS 11.
               </p>
 
               <h2 className="mt-5">Equipe</h2>

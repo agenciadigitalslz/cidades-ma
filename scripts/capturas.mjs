@@ -104,6 +104,10 @@ const CENAS = [
   { nome: '09-indicadores-360-escuro', rota: '/municipios/2111300', largura: 360, altura: 780, movel: true, tema: 'escuro' },
   { nome: '10-menu-aberto-360', rota: '/sobre', largura: 360, altura: 780, movel: true, abrirMenu: true },
   { nome: '12-comparar-bacabal-codo', rota: '/comparar?a=2101202&b=2103307', largura: 1440, altura: 900 },
+  { nome: '13-mapa-crescimento', rota: '/mapa?indicador=crescimento', largura: 1440, altura: 900 },
+  { nome: '14-codo-crescimento-vizinhos', rota: '/municipios/2103307', largura: 1440, altura: 900 },
+  { nome: '15-inicio-minhas-cidades', rota: '/', largura: 1440, altura: 900, antes: "localStorage.setItem('cidades-ma-favoritos', JSON.stringify(['2101202','2103307']))" },
+  { nome: '16-mapa-360-escuro', rota: '/mapa', largura: 360, altura: 780, movel: true, tema: 'escuro' },
   { nome: '11-rota-inexistente', rota: '/nao-existe', largura: 1024, altura: 700 },
 ];
 
@@ -124,7 +128,13 @@ try {
     /* Limpa a escolha manual de tema para a emulação valer. */
     await cli.enviar('Page.navigate', { url: `http://127.0.0.1:${PORTA_HTTP}${cena.rota}` });
     await dormir(300);
-    await avaliar(cli, `localStorage.removeItem('cidades-ma-tema'); document.documentElement.removeAttribute('data-tema');`);
+    await avaliar(cli, `localStorage.removeItem('cidades-ma-tema'); document.documentElement.removeAttribute('data-tema'); localStorage.removeItem('cidades-ma-favoritos');`);
+    if (cena.antes) {
+      /* Prepara o estado do navegador e recarrega, para a página nascer com ele. */
+      await avaliar(cli, cena.antes);
+      await cli.enviar('Page.reload');
+      await dormir(300);
+    }
     await esperarDados(cli);
     if (cena.abrirMenu) {
       await avaliar(cli, `document.querySelector('.navbar-toggler').click()`);

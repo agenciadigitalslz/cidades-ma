@@ -8,7 +8,7 @@ export default function EstadoDados({ className = '' }) {
   if (status === 'carregando') {
     return (
       <p className={`aviso-etapa ${className}`} role="status" aria-live="polite">
-        <strong>Consultando a API do IBGE…</strong> Localidades e Censo 2022, tabela 4714 do SIDRA.
+        <strong>Consultando a API do IBGE…</strong> Localidades e Censo 2022, tabelas 4714 e 4709 do SIDRA.
       </p>
     );
   }
@@ -30,7 +30,7 @@ export default function EstadoDados({ className = '' }) {
   return (
     <p className={`texto-apoio ${className}`} role="status">
       Dados consultados ao vivo na API do IBGE às {hora}: Localidades e Censo Demográfico 2022
-      (tabela 4714 do SIDRA).
+      (tabelas 4714 e 4709 do SIDRA).
     </p>
   );
 }

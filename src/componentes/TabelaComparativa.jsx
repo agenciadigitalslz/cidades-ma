@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { nInt, nDec } from '../servicos/formatar.js';
+import { nInt, nDec, nSinal } from '../servicos/formatar.js';
 
 /* Tabela de comparação. A linha em foco recebe destaque visual e uma barra
    lateral, para não depender só de cor. */
@@ -15,6 +15,7 @@ export default function TabelaComparativa({ municipios, focoId, legenda }) {
             <th scope="col" className="numerico">População</th>
             <th scope="col" className="numerico">Área (km²)</th>
             <th scope="col" className="numerico">Densidade (hab/km²)</th>
+            <th scope="col" className="numerico">Cresc. 2010 a 2022 (% a.a.)</th>
           </tr>
         </thead>
         <tbody>
@@ -27,6 +28,7 @@ export default function TabelaComparativa({ municipios, focoId, legenda }) {
               <td className="numerico">{nInt(m.populacao)}</td>
               <td className="numerico">{nDec(m.area)}</td>
               <td className="numerico">{nDec(m.densidade, 2)}</td>
+              <td className={`numerico${m.crescimento < 0 ? ' negativo' : ''}`}>{nSinal(m.crescimento)}</td>
             </tr>
           ))}
         </tbody>

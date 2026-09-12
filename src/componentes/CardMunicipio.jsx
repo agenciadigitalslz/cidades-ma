@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import { nInt, ordinal } from '../servicos/formatar.js';
 import { proporcaoBarra } from '../servicos/municipios.js';
+import BotaoFavorito from './BotaoFavorito.jsx';
 
-/* Cartão da grade. O cartão inteiro é a área de clique (stretched-link). */
+/* Cartão da grade. O cartão inteiro é a área de clique (stretched-link);
+   a estrela fica acima dele para poder ser clicada sem abrir a página. */
 export default function CardMunicipio({ municipio, posicao, maiorPopulacao }) {
   const proporcao = proporcaoBarra(municipio.populacao, maiorPopulacao);
   return (
@@ -19,6 +21,7 @@ export default function CardMunicipio({ municipio, posicao, maiorPopulacao }) {
         <span></span>
       </p>
       <p className="regiao mb-0">{municipio.mesorregiao}</p>
+      <BotaoFavorito municipio={municipio} className="no-cartao" />
     </article>
   );
 }

@@ -1,1955 +1,2389 @@
 [
-  {
-    "id": "2111300",
-    "nome": "São Luís",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Aglomeração Urbana de São Luís",
-    "populacao": 1037775,
-    "area": 583.063,
-    "densidade": 1779.87
-  },
-  {
-    "id": "2105302",
-    "nome": "Imperatriz",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 273110,
-    "area": 1369.039,
-    "densidade": 199.49
-  },
-  {
-    "id": "2111201",
-    "nome": "São José de Ribamar",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Aglomeração Urbana de São Luís",
-    "populacao": 244579,
-    "area": 180.363,
-    "densidade": 1356.04
-  },
-  {
-    "id": "2112209",
-    "nome": "Timon",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Caxias",
-    "populacao": 174465,
-    "area": 1763.22,
-    "densidade": 98.95
-  },
-  {
-    "id": "2103000",
-    "nome": "Caxias",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Caxias",
-    "populacao": 156973,
-    "area": 5201.927,
-    "densidade": 30.18
-  },
-  {
-    "id": "2107506",
-    "nome": "Paço do Lumiar",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Aglomeração Urbana de São Luís",
-    "populacao": 145643,
-    "area": 127.193,
-    "densidade": 1145.06
-  },
-  {
-    "id": "2103307",
-    "nome": "Codó",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Codó",
-    "populacao": 114275,
-    "area": 4361.606,
-    "densidade": 26.2
-  },
-  {
-    "id": "2100055",
-    "nome": "Açailândia",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 106550,
-    "area": 5805.159,
-    "densidade": 18.35
-  },
-  {
-    "id": "2101202",
-    "nome": "Bacabal",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 103711,
-    "area": 1656.736,
-    "densidade": 62.6
-  },
-  {
-    "id": "2101400",
-    "nome": "Balsas",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Gerais de Balsas",
-    "populacao": 101767,
-    "area": 13141.162,
-    "densidade": 7.74
-  },
-  {
-    "id": "2109908",
-    "nome": "Santa Inês",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 85014,
-    "area": 786.689,
-    "densidade": 108.07
-  },
-  {
-    "id": "2108603",
-    "nome": "Pinheiro",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 84621,
-    "area": 1512.969,
-    "densidade": 55.93
-  },
-  {
-    "id": "2101608",
-    "nome": "Barra do Corda",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Alto Mearim e Grajaú",
-    "populacao": 84532,
-    "area": 5187.673,
-    "densidade": 16.29
-  },
-  {
-    "id": "2103208",
-    "nome": "Chapadinha",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadinha",
-    "populacao": 81386,
-    "area": 3247.385,
-    "densidade": 25.06
-  },
-  {
-    "id": "2104800",
-    "nome": "Grajaú",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Alto Mearim e Grajaú",
-    "populacao": 73872,
-    "area": 8861.717,
-    "densidade": 8.34
-  },
-  {
-    "id": "2101707",
-    "nome": "Barreirinhas",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Lençóis Maranhenses",
-    "populacao": 65589,
-    "area": 3046.308,
-    "densidade": 21.53
-  },
-  {
-    "id": "2105401",
-    "nome": "Itapecuru Mirim",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Itapecuru Mirim",
-    "populacao": 60440,
-    "area": 1480.641,
-    "densidade": 40.82
-  },
-  {
-    "id": "2103604",
-    "nome": "Coroatá",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Codó",
-    "populacao": 59566,
-    "area": 2263.692,
-    "densidade": 26.31
-  },
-  {
-    "id": "2110005",
-    "nome": "Santa Luzia",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 57635,
-    "area": 4837.169,
-    "densidade": 11.92
-  },
-  {
-    "id": "2102325",
-    "nome": "Buriticupu",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 55499,
-    "area": 2544.857,
-    "densidade": 21.81
-  },
-  {
-    "id": "2112506",
-    "nome": "Tutóia",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Lençóis Maranhenses",
-    "populacao": 53356,
-    "area": 1566.08,
-    "densidade": 34.07
-  },
-  {
-    "id": "2112803",
-    "nome": "Viana",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 51442,
-    "area": 1166.745,
-    "densidade": 44.09
-  },
-  {
-    "id": "2110500",
-    "nome": "São Bento",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 46395,
-    "area": 456.997,
-    "densidade": 101.52
-  },
-  {
-    "id": "2109106",
-    "nome": "Presidente Dutra",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Presidente Dutra",
-    "populacao": 45155,
-    "area": 771.574,
-    "densidade": 58.52
-  },
-  {
-    "id": "2105708",
-    "nome": "Lago da Pedra",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 44403,
-    "area": 1240.444,
-    "densidade": 35.8
-  },
-  {
-    "id": "2112704",
-    "nome": "Vargem Grande",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Itapecuru Mirim",
-    "populacao": 43261,
-    "area": 1958.702,
-    "densidade": 22.09
-  },
-  {
-    "id": "2103406",
-    "nome": "Coelho Neto",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Coelho Neto",
-    "populacao": 41658,
-    "area": 977.079,
-    "densidade": 42.64
-  },
-  {
-    "id": "2109809",
-    "nome": "Santa Helena",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 41561,
-    "area": 2191.168,
-    "densidade": 18.97
-  },
-  {
-    "id": "2114007",
-    "nome": "Zé Doca",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 40801,
-    "area": 2140.109,
-    "densidade": 19.06
-  },
-  {
-    "id": "2103505",
-    "nome": "Colinas",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadas do Alto Itapecuru",
-    "populacao": 40316,
-    "area": 1978.695,
-    "densidade": 20.38
-  },
-  {
-    "id": "2100907",
-    "nome": "Araioses",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Baixo Parnaíba Maranhense",
-    "populacao": 39052,
-    "area": 1789.73,
-    "densidade": 21.82
-  },
-  {
-    "id": "2111508",
-    "nome": "São Mateus do Maranhão",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 38829,
-    "area": 800.045,
-    "densidade": 48.53
-  },
-  {
-    "id": "2109601",
-    "nome": "Rosário",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Rosário",
-    "populacao": 38475,
-    "area": 647.998,
-    "densidade": 59.38
-  },
-  {
-    "id": "2112407",
-    "nome": "Turiaçu",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Gurupi",
-    "populacao": 37491,
-    "area": 2622.281,
-    "densidade": 14.3
-  },
-  {
-    "id": "2100600",
-    "nome": "Amarante do Maranhão",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 37085,
-    "area": 7439.615,
-    "densidade": 4.98
-  },
-  {
-    "id": "2108207",
-    "nome": "Pedreiras",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 37050,
-    "area": 262.066,
-    "densidade": 141.38
-  },
-  {
-    "id": "2110203",
-    "nome": "Santa Rita",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Rosário",
-    "populacao": 37035,
-    "area": 756.797,
-    "densidade": 48.94
-  },
-  {
-    "id": "2112308",
-    "nome": "Tuntum",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Alto Mearim e Grajaú",
-    "populacao": 36251,
-    "area": 3369.121,
-    "densidade": 10.76
-  },
-  {
-    "id": "2102101",
-    "nome": "Brejo",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadinha",
-    "populacao": 34120,
-    "area": 1073.258,
-    "densidade": 31.79
-  },
-  {
-    "id": "2110708",
-    "nome": "São Domingos do Maranhão",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Presidente Dutra",
-    "populacao": 34034,
-    "area": 1151.978,
-    "densidade": 29.54
-  },
-  {
-    "id": "2104057",
-    "nome": "Estreito",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Porto Franco",
-    "populacao": 33294,
-    "area": 2720.266,
-    "densidade": 12.24
-  },
-  {
-    "id": "2102002",
-    "nome": "Bom Jardim",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 33100,
-    "area": 6588.38,
-    "densidade": 5.02
-  },
-  {
-    "id": "2112605",
-    "nome": "Urbano Santos",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadinha",
-    "populacao": 32812,
-    "area": 1707.621,
-    "densidade": 19.22
-  },
-  {
-    "id": "2108306",
-    "nome": "Penalva",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 32511,
-    "area": 800.916,
-    "densidade": 40.59
-  },
-  {
-    "id": "2106607",
-    "nome": "Matões",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Caxias",
-    "populacao": 32174,
-    "area": 2108.671,
-    "densidade": 15.26
-  },
-  {
-    "id": "2112456",
-    "nome": "Turilândia",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Gurupi",
-    "populacao": 31638,
-    "area": 1507.622,
-    "densidade": 20.99
-  },
-  {
-    "id": "2103703",
-    "nome": "Cururupu",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Litoral Ocidental Maranhense",
-    "populacao": 31558,
-    "area": 1257.608,
-    "densidade": 25.09
-  },
-  {
-    "id": "2108504",
-    "nome": "Pindaré-Mirim",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 31429,
-    "area": 268.285,
-    "densidade": 117.15
-  },
-  {
-    "id": "2107803",
-    "nome": "Parnarama",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Caxias",
-    "populacao": 31250,
-    "area": 3245.525,
-    "densidade": 9.63
-  },
-  {
-    "id": "2113009",
-    "nome": "Vitorino Freire",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 30845,
-    "area": 1193.385,
-    "densidade": 25.85
-  },
-  {
-    "id": "2109452",
-    "nome": "Raposa",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Aglomeração Urbana de São Luís",
-    "populacao": 30839,
-    "area": 79.213,
-    "densidade": 389.32
-  },
-  {
-    "id": "2112902",
-    "nome": "Vitória do Mearim",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 30805,
-    "area": 716.719,
-    "densidade": 42.98
-  },
-  {
-    "id": "2102200",
-    "nome": "Buriti",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadinha",
-    "populacao": 29685,
-    "area": 1475.779,
-    "densidade": 20.11
-  },
-  {
-    "id": "2101004",
-    "nome": "Arari",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 29472,
-    "area": 1100.275,
-    "densidade": 26.79
-  },
-  {
-    "id": "2102036",
-    "nome": "Bom Jesus das Selvas",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 28599,
-    "area": 2676.98,
-    "densidade": 10.68
-  },
-  {
-    "id": "2106904",
-    "nome": "Monção",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 27751,
-    "area": 1245.548,
-    "densidade": 22.28
-  },
-  {
-    "id": "2110609",
-    "nome": "São Bernardo",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Baixo Parnaíba Maranhense",
-    "populacao": 26943,
-    "area": 1005.824,
-    "densidade": 26.79
-  },
-  {
-    "id": "2112100",
-    "nome": "Timbiras",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Codó",
-    "populacao": 26484,
-    "area": 1486.584,
-    "densidade": 17.82
-  },
-  {
-    "id": "2100477",
-    "nome": "Alto Alegre do Pindaré",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 25710,
-    "area": 1875.901,
-    "densidade": 13.71
-  },
-  {
-    "id": "2105005",
-    "nome": "Humberto de Campos",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Lençóis Maranhenses",
-    "populacao": 25680,
-    "area": 1714.625,
-    "densidade": 14.98
-  },
-  {
-    "id": "2100956",
-    "nome": "Arame",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Alto Mearim e Grajaú",
-    "populacao": 25517,
-    "area": 2976.039,
-    "densidade": 8.57
-  },
-  {
-    "id": "2100709",
-    "nome": "Anajatuba",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 25322,
-    "area": 940.489,
-    "densidade": 26.92
-  },
-  {
-    "id": "2111102",
-    "nome": "São João dos Patos",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadas do Alto Itapecuru",
-    "populacao": 25020,
-    "area": 1483.255,
-    "densidade": 16.87
-  },
-  {
-    "id": "2105104",
-    "nome": "Icatu",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Rosário",
-    "populacao": 24794,
-    "area": 1124.445,
-    "densidade": 22.05
-  },
-  {
-    "id": "2105500",
-    "nome": "João Lisboa",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 24709,
-    "area": 1137.104,
-    "densidade": 21.73
-  },
-  {
-    "id": "2108256",
-    "nome": "Pedro do Rosário",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 24320,
-    "area": 1753.867,
-    "densidade": 13.87
-  },
-  {
-    "id": "2110039",
-    "nome": "Santa Luzia do Paruá",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 24307,
-    "area": 1010.483,
-    "densidade": 24.05
-  },
-  {
-    "id": "2102705",
-    "nome": "Cantanhede",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Itapecuru Mirim",
-    "populacao": 24303,
-    "area": 773.01,
-    "densidade": 31.44
-  },
-  {
-    "id": "2102903",
-    "nome": "Carutapera",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Gurupi",
-    "populacao": 24238,
-    "area": 1260.977,
-    "densidade": 19.22
-  },
-  {
-    "id": "2102804",
-    "nome": "Carolina",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Porto Franco",
-    "populacao": 24062,
-    "area": 6267.675,
-    "densidade": 3.84
-  },
-  {
-    "id": "2100436",
-    "nome": "Alto Alegre do Maranhão",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Codó",
-    "populacao": 24048,
-    "area": 392.75,
-    "densidade": 61.23
-  },
-  {
-    "id": "2110104",
-    "nome": "Santa Quitéria do Maranhão",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Baixo Parnaíba Maranhense",
-    "populacao": 23957,
-    "area": 1430.33,
-    "densidade": 16.75
-  },
-  {
-    "id": "2109007",
-    "nome": "Porto Franco",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Porto Franco",
-    "populacao": 23903,
-    "area": 1420.51,
-    "densidade": 16.83
-  },
-  {
-    "id": "2106755",
-    "nome": "Miranda do Norte",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Itapecuru Mirim",
-    "populacao": 23864,
-    "area": 341.107,
-    "densidade": 69.96
-  },
-  {
-    "id": "2100303",
-    "nome": "Aldeias Altas",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Coelho Neto",
-    "populacao": 23286,
-    "area": 1942.121,
-    "densidade": 11.99
-  },
-  {
-    "id": "2104677",
-    "nome": "Governador Nunes Freire",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Gurupi",
-    "populacao": 23128,
-    "area": 1037.13,
-    "densidade": 22.3
-  },
-  {
-    "id": "2103802",
-    "nome": "Dom Pedro",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Presidente Dutra",
-    "populacao": 23053,
-    "area": 358.493,
-    "densidade": 64.31
-  },
-  {
-    "id": "2105427",
-    "nome": "Itinga do Maranhão",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 22513,
-    "area": 3583.423,
-    "densidade": 6.28
-  },
-  {
-    "id": "2112233",
-    "nome": "Trizidela do Vale",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 22484,
-    "area": 291.61,
-    "densidade": 77.1
-  },
-  {
-    "id": "2102309",
-    "nome": "Buriti Bravo",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Caxias",
-    "populacao": 22455,
-    "area": 1582.552,
-    "densidade": 14.19
-  },
-  {
-    "id": "2109502",
-    "nome": "Riachão",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Gerais de Balsas",
-    "populacao": 22145,
-    "area": 6402.83,
-    "densidade": 3.46
-  },
-  {
-    "id": "2106508",
-    "nome": "Matinha",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 22034,
-    "area": 410.632,
-    "densidade": 53.66
-  },
-  {
-    "id": "2108702",
-    "nome": "Pio XII",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 21886,
-    "area": 545.14,
-    "densidade": 40.15
-  },
-  {
-    "id": "2106326",
-    "nome": "Maracaçumé",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Gurupi",
-    "populacao": 21149,
-    "area": 635.758,
-    "densidade": 33.27
-  },
-  {
-    "id": "2107605",
-    "nome": "Palmeirândia",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 21059,
-    "area": 532.161,
-    "densidade": 39.57
-  },
-  {
-    "id": "2106706",
-    "nome": "Mirador",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadas do Alto Itapecuru",
-    "populacao": 21030,
-    "area": 8522.351,
-    "densidade": 2.47
-  },
-  {
-    "id": "2108454",
-    "nome": "Peritoró",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Codó",
-    "populacao": 20479,
-    "area": 824.725,
-    "densidade": 24.83
-  },
-  {
-    "id": "2108108",
-    "nome": "Paulo Ramos",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 20341,
-    "area": 1168.609,
-    "densidade": 17.41
-  },
-  {
-    "id": "2102606",
-    "nome": "Cândido Mendes",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Gurupi",
-    "populacao": 19932,
-    "area": 1634.861,
-    "densidade": 12.19
-  },
-  {
-    "id": "2101905",
-    "nome": "Bequimão",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Litoral Ocidental Maranhense",
-    "populacao": 19584,
-    "area": 790.222,
-    "densidade": 24.78
-  },
-  {
-    "id": "2111706",
-    "nome": "São Vicente Ferrer",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 19498,
-    "area": 393.928,
-    "densidade": 49.5
-  },
-  {
-    "id": "2101509",
-    "nome": "Barão de Grajaú",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadas do Alto Itapecuru",
-    "populacao": 18984,
-    "area": 2209.414,
-    "densidade": 8.59
-  },
-  {
-    "id": "2108009",
-    "nome": "Pastos Bons",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadas do Alto Itapecuru",
-    "populacao": 18802,
-    "area": 1635.181,
-    "densidade": 11.5
-  },
-  {
-    "id": "2111607",
-    "nome": "São Raimundo das Mangabeiras",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Chapadas das Mangabeiras",
-    "populacao": 18672,
-    "area": 3524.501,
-    "densidade": 5.3
-  },
-  {
-    "id": "2107100",
-    "nome": "Morros",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Rosário",
-    "populacao": 18554,
-    "area": 1712.121,
-    "densidade": 10.84
-  },
-  {
-    "id": "2111003",
-    "nome": "São João Batista",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 18544,
-    "area": 649.956,
-    "densidade": 28.53
-  },
-  {
-    "id": "2100204",
-    "nome": "Alcântara",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Litoral Ocidental Maranhense",
-    "populacao": 18467,
-    "area": 1167.964,
-    "densidade": 15.81
-  },
-  {
-    "id": "2104552",
-    "nome": "Governador Edison Lobão",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 18411,
-    "area": 615.957,
-    "densidade": 29.89
-  },
-  {
-    "id": "2110401",
-    "nome": "São Benedito do Rio Preto",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadinha",
-    "populacao": 18364,
-    "area": 931.485,
-    "densidade": 19.71
-  },
-  {
-    "id": "2104008",
-    "nome": "Esperantinópolis",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 18311,
-    "area": 452.411,
-    "densidade": 40.47
-  },
-  {
-    "id": "2107704",
-    "nome": "Paraibano",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadas do Alto Itapecuru",
-    "populacao": 18274,
-    "area": 530.517,
-    "densidade": 34.45
-  },
-  {
-    "id": "2107407",
-    "nome": "Olho d'Água das Cunhãs",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 17919,
-    "area": 695.333,
-    "densidade": 25.77
-  },
-  {
-    "id": "2111409",
-    "nome": "São Luís Gonzaga do Maranhão",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 17818,
-    "area": 909.164,
-    "densidade": 19.6
-  },
-  {
-    "id": "2104099",
-    "nome": "Formosa da Serra Negra",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Alto Mearim e Grajaú",
-    "populacao": 17719,
-    "area": 3690.61,
-    "densidade": 4.8
-  },
-  {
-    "id": "2108801",
-    "nome": "Pirapemas",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Itapecuru Mirim",
-    "populacao": 17714,
-    "area": 688.761,
-    "densidade": 25.72
-  },
-  {
-    "id": "2100832",
-    "nome": "Apicum-Açu",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Litoral Ocidental Maranhense",
-    "populacao": 17519,
-    "area": 341.12,
-    "densidade": 51.36
-  },
-  {
-    "id": "2109270",
-    "nome": "Presidente Sarney",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 17511,
-    "area": 726.172,
-    "densidade": 24.11
-  },
-  {
-    "id": "2106631",
-    "nome": "Matões do Norte",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Itapecuru Mirim",
-    "populacao": 17432,
-    "area": 794.454,
-    "densidade": 21.94
-  },
-  {
-    "id": "2107902",
-    "nome": "Passagem Franca",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadas do Alto Itapecuru",
-    "populacao": 17220,
-    "area": 1358.327,
-    "densidade": 12.68
-  },
-  {
-    "id": "2104404",
-    "nome": "Gonçalves Dias",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Presidente Dutra",
-    "populacao": 17206,
-    "area": 883.588,
-    "densidade": 19.47
-  },
-  {
-    "id": "2108900",
-    "nome": "Poção de Pedras",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 17161,
-    "area": 990.415,
-    "densidade": 17.33
-  },
-  {
-    "id": "2106409",
-    "nome": "Mata Roma",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadinha",
-    "populacao": 17090,
-    "area": 548.548,
-    "densidade": 31.15
-  },
-  {
-    "id": "2105476",
-    "nome": "Jenipapo dos Vieiras",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Alto Mearim e Grajaú",
-    "populacao": 17076,
-    "area": 1962.362,
-    "densidade": 8.7
-  },
-  {
-    "id": "2111805",
-    "nome": "Sítio Novo",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Alto Mearim e Grajaú",
-    "populacao": 17074,
-    "area": 3114.683,
-    "densidade": 5.48
-  },
-  {
-    "id": "2108058",
-    "nome": "Paulino Neves",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Lençóis Maranhenses",
-    "populacao": 17056,
-    "area": 979.482,
-    "densidade": 17.41
-  },
-  {
-    "id": "2104206",
-    "nome": "Fortuna",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Presidente Dutra",
-    "populacao": 16976,
-    "area": 834.83,
-    "densidade": 20.33
-  },
-  {
-    "id": "2101251",
-    "nome": "Bacabeira",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Rosário",
-    "populacao": 16966,
-    "area": 542.962,
-    "densidade": 31.25
-  },
-  {
-    "id": "2111078",
-    "nome": "São João do Soter",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Caxias",
-    "populacao": 16889,
-    "area": 1438.067,
-    "densidade": 11.74
-  },
-  {
-    "id": "2102507",
-    "nome": "Cajari",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 16412,
-    "area": 662.066,
-    "densidade": 24.79
-  },
-  {
-    "id": "2101301",
-    "nome": "Bacuri",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Litoral Ocidental Maranhense",
-    "populacao": 16290,
-    "area": 850.491,
-    "densidade": 19.15
-  },
-  {
-    "id": "2103174",
-    "nome": "Centro Novo do Maranhão",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Gurupi",
-    "populacao": 16267,
-    "area": 8401.003,
-    "densidade": 1.94
-  },
-  {
-    "id": "2105609",
-    "nome": "Joselândia",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Alto Mearim e Grajaú",
-    "populacao": 14924,
-    "area": 703.081,
-    "densidade": 21.23
-  },
-  {
-    "id": "2103554",
-    "nome": "Conceição do Lago-Açu",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 14915,
-    "area": 725.664,
-    "densidade": 20.55
-  },
-  {
-    "id": "2105906",
-    "nome": "Lago Verde",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 14769,
-    "area": 631.455,
-    "densidade": 23.39
-  },
-  {
-    "id": "2111763",
-    "nome": "Senador La Rocque",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 14700,
-    "area": 738.187,
-    "densidade": 19.91
-  },
-  {
-    "id": "2103752",
-    "nome": "Davinópolis",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 14404,
-    "area": 332.249,
-    "densidade": 43.35
-  },
-  {
-    "id": "2111532",
-    "nome": "São Pedro da Água Branca",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 14338,
-    "area": 720.461,
-    "densidade": 19.9
-  },
-  {
-    "id": "2107357",
-    "nome": "Nova Olinda do Maranhão",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 14314,
-    "area": 2452.615,
-    "densidade": 5.84
-  },
-  {
-    "id": "2110302",
-    "nome": "Santo Antônio dos Lopes",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 14304,
-    "area": 770.923,
-    "densidade": 18.55
-  },
-  {
-    "id": "2107209",
-    "nome": "Nina Rodrigues",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Itapecuru Mirim",
-    "populacao": 14176,
-    "area": 570.938,
-    "densidade": 24.83
-  },
-  {
-    "id": "2106805",
-    "nome": "Mirinzal",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Litoral Ocidental Maranhense",
-    "populacao": 13978,
-    "area": 686.942,
-    "densidade": 20.35
-  },
-  {
-    "id": "2105153",
-    "nome": "Igarapé do Meio",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 13974,
-    "area": 368.685,
-    "densidade": 37.9
-  },
-  {
-    "id": "2110278",
-    "nome": "Santo Amaro do Maranhão",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Lençóis Maranhenses",
-    "populacao": 13949,
-    "area": 1582.806,
-    "densidade": 8.81
-  },
-  {
-    "id": "2104602",
-    "nome": "Governador Eugênio Barros",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Presidente Dutra",
-    "populacao": 13930,
-    "area": 647.989,
-    "densidade": 21.5
-  },
-  {
-    "id": "2105351",
-    "nome": "Itaipava do Grajaú",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Alto Mearim e Grajaú",
-    "populacao": 13828,
-    "area": 1244.398,
-    "densidade": 11.11
-  },
-  {
-    "id": "2106300",
-    "nome": "Magalhães de Almeida",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Baixo Parnaíba Maranhense",
-    "populacao": 13807,
-    "area": 434.433,
-    "densidade": 31.78
-  },
-  {
-    "id": "2100808",
-    "nome": "Anapurus",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadinha",
-    "populacao": 13793,
-    "area": 608.903,
-    "densidade": 22.65
-  },
-  {
-    "id": "2106375",
-    "nome": "Maranhãozinho",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Gurupi",
-    "populacao": 13761,
-    "area": 760.947,
-    "densidade": 18.08
-  },
-  {
-    "id": "2109403",
-    "nome": "Primeira Cruz",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Lençóis Maranhenses",
-    "populacao": 13614,
-    "area": 1337.161,
-    "densidade": 10.18
-  },
-  {
-    "id": "2107456",
-    "nome": "Olinda Nova do Maranhão",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 13577,
-    "area": 199.879,
-    "densidade": 67.93
-  },
-  {
-    "id": "2102358",
-    "nome": "Buritirana",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 12918,
-    "area": 820.968,
-    "densidade": 15.74
-  },
-  {
-    "id": "2103257",
-    "nome": "Cidelândia",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 12878,
-    "area": 1462.809,
-    "densidade": 8.8
-  },
-  {
-    "id": "2104107",
-    "nome": "Fortaleza dos Nogueiras",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Chapadas das Mangabeiras",
-    "populacao": 12640,
-    "area": 1853.406,
-    "densidade": 6.82
-  },
-  {
-    "id": "2103158",
-    "nome": "Centro do Guilherme",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Gurupi",
-    "populacao": 12342,
-    "area": 1167.848,
-    "densidade": 10.57
-  },
-  {
-    "id": "2102556",
-    "nome": "Campestre do Maranhão",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Porto Franco",
-    "populacao": 12301,
-    "area": 613.529,
-    "densidade": 20.05
-  },
-  {
-    "id": "2111029",
-    "nome": "São João do Carú",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 12251,
-    "area": 910.065,
-    "densidade": 13.46
-  },
-  {
-    "id": "2102077",
-    "nome": "Bom Lugar",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 12212,
-    "area": 445.171,
-    "densidade": 27.43
-  },
-  {
-    "id": "2100154",
-    "nome": "Água Doce do Maranhão",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Baixo Parnaíba Maranhense",
-    "populacao": 12142,
-    "area": 442.292,
-    "densidade": 27.45
-  },
-  {
-    "id": "2110906",
-    "nome": "São Francisco do Maranhão",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadas do Alto Itapecuru",
-    "populacao": 12064,
-    "area": 2284.217,
-    "densidade": 5.28
-  },
-  {
-    "id": "2101103",
-    "nome": "Axixá",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Rosário",
-    "populacao": 11790,
-    "area": 160.462,
-    "densidade": 73.48
-  },
-  {
-    "id": "2101772",
-    "nome": "Bela Vista do Maranhão",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 11750,
-    "area": 147.954,
-    "densidade": 79.42
-  },
-  {
-    "id": "2106102",
-    "nome": "Loreto",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Chapadas das Mangabeiras",
-    "populacao": 11597,
-    "area": 3597.231,
-    "densidade": 3.22
-  },
-  {
-    "id": "2105963",
-    "nome": "Lagoa Grande do Maranhão",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 11411,
-    "area": 744.199,
-    "densidade": 15.33
-  },
-  {
-    "id": "2102754",
-    "nome": "Capinzal do Norte",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Codó",
-    "populacao": 11374,
-    "area": 590.267,
-    "densidade": 19.27
-  },
-  {
-    "id": "2109205",
-    "nome": "Presidente Juscelino",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Rosário",
-    "populacao": 11356,
-    "area": 355.568,
-    "densidade": 31.94
-  },
-  {
-    "id": "2106003",
-    "nome": "Lima Campos",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 11297,
-    "area": 321.932,
-    "densidade": 35.09
-  },
-  {
-    "id": "2100873",
-    "nome": "Araguanã",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 11181,
-    "area": 805.194,
-    "densidade": 13.89
-  },
-  {
-    "id": "2100501",
-    "nome": "Alto Parnaíba",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Gerais de Balsas",
-    "populacao": 11109,
-    "area": 11127.384,
-    "densidade": 1
-  },
-  {
-    "id": "2108405",
-    "nome": "Peri Mirim",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Baixada Maranhense",
-    "populacao": 11108,
-    "area": 397.994,
-    "densidade": 27.91
-  },
-  {
-    "id": "2104081",
-    "nome": "Fernando Falcão",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Alto Mearim e Grajaú",
-    "populacao": 10873,
-    "area": 5086.589,
-    "densidade": 2.14
-  },
-  {
-    "id": "2104651",
-    "nome": "Governador Newton Bello",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 10713,
-    "area": 1144.146,
-    "densidade": 9.36
-  },
-  {
-    "id": "2105922",
-    "nome": "Lagoa do Mato",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadas do Alto Itapecuru",
-    "populacao": 10572,
-    "area": 1512.985,
-    "densidade": 6.99
-  },
-  {
-    "id": "2110237",
-    "nome": "Santana do Maranhão",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Baixo Parnaíba Maranhense",
-    "populacao": 10567,
-    "area": 932.03,
-    "densidade": 11.34
-  },
-  {
-    "id": "2109304",
-    "nome": "Presidente Vargas",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Itapecuru Mirim",
-    "populacao": 10549,
-    "area": 460.004,
-    "densidade": 22.93
-  },
-  {
-    "id": "2112852",
-    "nome": "Vila Nova dos Martírios",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 10362,
-    "area": 1190.008,
-    "densidade": 8.71
-  },
-  {
-    "id": "2104909",
-    "nome": "Guimarães",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Litoral Ocidental Maranhense",
-    "populacao": 10290,
-    "area": 478.857,
-    "densidade": 21.49
-  },
-  {
-    "id": "2111904",
-    "nome": "Sucupira do Norte",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadas do Alto Itapecuru",
-    "populacao": 10238,
-    "area": 1074.435,
-    "densidade": 9.53
-  },
-  {
-    "id": "2104503",
-    "nome": "Governador Archer",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Presidente Dutra",
-    "populacao": 10231,
-    "area": 445.856,
-    "densidade": 22.95
-  },
-  {
-    "id": "2105203",
-    "nome": "Igarapé Grande",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 10231,
-    "area": 346.218,
-    "densidade": 29.55
-  },
-  {
-    "id": "2103901",
-    "nome": "Duque Bacelar",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Coelho Neto",
-    "populacao": 10223,
-    "area": 317.494,
-    "densidade": 32.2
-  },
-  {
-    "id": "2103109",
-    "nome": "Cedral",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Litoral Ocidental Maranhense",
-    "populacao": 10208,
-    "area": 285.211,
-    "densidade": 35.79
-  },
-  {
-    "id": "2111748",
-    "nome": "Senador Alexandre Costa",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Presidente Dutra",
-    "populacao": 10207,
-    "area": 426.437,
-    "densidade": 23.94
-  },
-  {
-    "id": "2111789",
-    "nome": "Serrano do Maranhão",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Litoral Ocidental Maranhense",
-    "populacao": 10202,
-    "area": 1165.318,
-    "densidade": 8.75
-  },
-  {
-    "id": "2104305",
-    "nome": "Godofredo Viana",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Gurupi",
-    "populacao": 10186,
-    "area": 720.129,
-    "densidade": 14.14
-  },
-  {
-    "id": "2102408",
-    "nome": "Cajapió",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Litoral Ocidental Maranhense",
-    "populacao": 10121,
-    "area": 545.244,
-    "densidade": 18.56
-  },
-  {
-    "id": "2111052",
-    "nome": "São João do Paraíso",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Porto Franco",
-    "populacao": 9904,
-    "area": 2052.328,
-    "densidade": 4.83
-  },
-  {
-    "id": "2102374",
-    "nome": "Cachoeira Grande",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Rosário",
-    "populacao": 9732,
-    "area": 707.236,
-    "densidade": 13.76
-  },
-  {
-    "id": "2105807",
-    "nome": "Lago do Junco",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 9506,
-    "area": 328.525,
-    "densidade": 28.94
-  },
-  {
-    "id": "2102150",
-    "nome": "Brejo de Areia",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 9218,
-    "area": 986.036,
-    "densidade": 9.35
-  },
-  {
-    "id": "2107001",
-    "nome": "Montes Altos",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 9106,
-    "area": 1488.513,
-    "densidade": 6.12
-  },
-  {
-    "id": "2110856",
-    "nome": "São Francisco do Brejão",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 9051,
-    "area": 745.357,
-    "densidade": 12.14
-  },
-  {
-    "id": "2112001",
-    "nome": "Tasso Fragoso",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Gerais de Balsas",
-    "populacao": 8862,
-    "area": 4369.159,
-    "densidade": 2.03
-  },
-  {
-    "id": "2106672",
-    "nome": "Milagres do Maranhão",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadinha",
-    "populacao": 8818,
-    "area": 634.818,
-    "densidade": 13.89
-  },
-  {
-    "id": "2111722",
-    "nome": "Satubinha",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 8784,
-    "area": 441.811,
-    "densidade": 19.88
-  },
-  {
-    "id": "2105948",
-    "nome": "Lago dos Rodrigues",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 8758,
-    "area": 220.776,
-    "densidade": 39.67
-  },
-  {
-    "id": "2101731",
-    "nome": "Belágua",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadinha",
-    "populacao": 8460,
-    "area": 569.606,
-    "densidade": 14.85
-  },
-  {
-    "id": "2104073",
-    "nome": "Feira Nova do Maranhão",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Gerais de Balsas",
-    "populacao": 8048,
-    "area": 1625.822,
-    "densidade": 4.95
-  },
-  {
-    "id": "2110658",
-    "nome": "São Domingos do Azeitão",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Chapadas das Mangabeiras",
-    "populacao": 7992,
-    "area": 961.249,
-    "densidade": 8.31
-  },
-  {
-    "id": "2101970",
-    "nome": "Boa Vista do Gurupi",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Gurupi",
-    "populacao": 7574,
-    "area": 400.35,
-    "densidade": 18.92
-  },
-  {
-    "id": "2105450",
-    "nome": "Jatobá",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadas do Alto Itapecuru",
-    "populacao": 7471,
-    "area": 591.616,
-    "densidade": 12.63
-  },
-  {
-    "id": "2109551",
-    "nome": "Ribamar Fiquene",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 7420,
-    "area": 733.458,
-    "densidade": 10.12
-  },
-  {
-    "id": "2100550",
-    "nome": "Amapá do Maranhão",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Gurupi",
-    "populacao": 7170,
-    "area": 502.402,
-    "densidade": 14.27
-  },
-  {
-    "id": "2106201",
-    "nome": "Luís Domingues",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Gurupi",
-    "populacao": 7161,
-    "area": 472.296,
-    "densidade": 15.16
-  },
-  {
-    "id": "2103125",
-    "nome": "Central do Maranhão",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Litoral Ocidental Maranhense",
-    "populacao": 7094,
-    "area": 319.538,
-    "densidade": 22.2
-  },
-  {
-    "id": "2104628",
-    "nome": "Governador Luiz Rocha",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Presidente Dutra",
-    "populacao": 7063,
-    "area": 401.587,
-    "densidade": 17.59
-  },
-  {
-    "id": "2105989",
-    "nome": "Lajeado Novo",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Imperatriz",
-    "populacao": 7057,
-    "area": 1063.619,
-    "densidade": 6.63
-  },
-  {
-    "id": "2106359",
-    "nome": "Marajá do Sena",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 7027,
-    "area": 1402.593,
-    "densidade": 5.01
-  },
-  {
-    "id": "2111250",
-    "nome": "São José dos Basílios",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Presidente Dutra",
-    "populacao": 6957,
-    "area": 353.72,
-    "densidade": 19.67
-  },
-  {
-    "id": "2109759",
-    "nome": "Santa Filomena do Maranhão",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Alto Mearim e Grajaú",
-    "populacao": 6697,
-    "area": 623.213,
-    "densidade": 10.75
-  },
-  {
-    "id": "2100402",
-    "nome": "Altamira do Maranhão",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 6447,
-    "area": 524.374,
-    "densidade": 12.29
-  },
-  {
-    "id": "2100105",
-    "nome": "Afonso Cunha",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Coelho Neto",
-    "populacao": 6144,
-    "area": 371.338,
-    "densidade": 16.55
-  },
-  {
-    "id": "2104701",
-    "nome": "Graça Aranha",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Presidente Dutra",
-    "populacao": 6023,
-    "area": 271.445,
-    "densidade": 22.19
-  },
-  {
-    "id": "2109056",
-    "nome": "Porto Rico do Maranhão",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Litoral Ocidental Maranhense",
-    "populacao": 5954,
-    "area": 244.979,
-    "densidade": 24.3
-  },
-  {
-    "id": "2101939",
-    "nome": "Bernardo do Mearim",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 5840,
-    "area": 247.186,
-    "densidade": 23.63
-  },
-  {
-    "id": "2111573",
-    "nome": "São Pedro dos Crentes",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Porto Franco",
-    "populacao": 5783,
-    "area": 979.915,
-    "densidade": 5.9
-  },
-  {
-    "id": "2111631",
-    "nome": "São Raimundo do Doca Bezerra",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 5650,
-    "area": 419.55,
-    "densidade": 13.47
-  },
-  {
-    "id": "2109700",
-    "nome": "Sambaíba",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Chapadas das Mangabeiras",
-    "populacao": 5568,
-    "area": 2476.132,
-    "densidade": 2.25
-  },
-  {
-    "id": "2112274",
-    "nome": "Tufilândia",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 5507,
-    "area": 270.934,
-    "densidade": 20.33
-  },
-  {
-    "id": "2101806",
-    "nome": "Benedito Leite",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Chapadas das Mangabeiras",
-    "populacao": 5469,
-    "area": 1784.64,
-    "densidade": 3.06
-  },
-  {
-    "id": "2101350",
-    "nome": "Bacurituba",
-    "mesorregiao": "Norte Maranhense",
-    "microrregiao": "Litoral Ocidental Maranhense",
-    "populacao": 5252,
-    "area": 413.651,
-    "densidade": 12.7
-  },
-  {
-    "id": "2105658",
-    "nome": "Junco do Maranhão",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Gurupi",
-    "populacao": 5146,
-    "area": 568.499,
-    "densidade": 9.05
-  },
-  {
-    "id": "2107258",
-    "nome": "Nova Colinas",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Chapadas das Mangabeiras",
-    "populacao": 5021,
-    "area": 743.085,
-    "densidade": 6.76
-  },
-  {
-    "id": "2111953",
-    "nome": "Sucupira do Riachão",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadas do Alto Itapecuru",
-    "populacao": 4985,
-    "area": 862.226,
-    "densidade": 5.78
-  },
-  {
-    "id": "2109239",
-    "nome": "Presidente Médici",
-    "mesorregiao": "Oeste Maranhense",
-    "microrregiao": "Pindaré",
-    "populacao": 4696,
-    "area": 437.687,
-    "densidade": 10.73
-  },
-  {
-    "id": "2111672",
-    "nome": "São Roberto",
-    "mesorregiao": "Centro Maranhense",
-    "microrregiao": "Médio Mearim",
-    "populacao": 4544,
-    "area": 226.811,
-    "densidade": 20.03
-  },
-  {
-    "id": "2110807",
-    "nome": "São Félix de Balsas",
-    "mesorregiao": "Sul Maranhense",
-    "microrregiao": "Chapadas das Mangabeiras",
-    "populacao": 4402,
-    "area": 2032.599,
-    "densidade": 2.17
-  },
-  {
-    "id": "2107308",
-    "nome": "Nova Iorque",
-    "mesorregiao": "Leste Maranhense",
-    "microrregiao": "Chapadas do Alto Itapecuru",
-    "populacao": 4320,
-    "area": 978.34,
-    "densidade": 4.42
-  }
+ {
+  "id": "2111300",
+  "nome": "São Luís",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Aglomeração Urbana de São Luís",
+  "populacao": 1037775,
+  "area": 583.063,
+  "densidade": 1779.87,
+  "variacao": 22446,
+  "crescimento": 0.18
+ },
+ {
+  "id": "2105302",
+  "nome": "Imperatriz",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 273110,
+  "area": 1369.039,
+  "densidade": 199.49,
+  "variacao": 25605,
+  "crescimento": 0.82
+ },
+ {
+  "id": "2111201",
+  "nome": "São José de Ribamar",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Aglomeração Urbana de São Luís",
+  "populacao": 244579,
+  "area": 180.363,
+  "densidade": 1356.04,
+  "variacao": 82642,
+  "crescimento": 3.5
+ },
+ {
+  "id": "2112209",
+  "nome": "Timon",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Caxias",
+  "populacao": 174465,
+  "area": 1763.22,
+  "densidade": 98.95,
+  "variacao": 18886,
+  "crescimento": 0.96
+ },
+ {
+  "id": "2103000",
+  "nome": "Caxias",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Caxias",
+  "populacao": 156973,
+  "area": 5201.927,
+  "densidade": 30.18,
+  "variacao": 1281,
+  "crescimento": 0.07
+ },
+ {
+  "id": "2107506",
+  "nome": "Paço do Lumiar",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Aglomeração Urbana de São Luís",
+  "populacao": 145643,
+  "area": 127.193,
+  "densidade": 1145.06,
+  "variacao": 39948,
+  "crescimento": 2.71
+ },
+ {
+  "id": "2103307",
+  "nome": "Codó",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Codó",
+  "populacao": 114275,
+  "area": 4361.606,
+  "densidade": 26.2,
+  "variacao": -3763,
+  "crescimento": -0.27
+ },
+ {
+  "id": "2100055",
+  "nome": "Açailândia",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 106550,
+  "area": 5805.159,
+  "densidade": 18.35,
+  "variacao": 2503,
+  "crescimento": 0.2
+ },
+ {
+  "id": "2101202",
+  "nome": "Bacabal",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 103711,
+  "area": 1656.736,
+  "densidade": 62.6,
+  "variacao": 4154,
+  "crescimento": 0.34
+ },
+ {
+  "id": "2101400",
+  "nome": "Balsas",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Gerais de Balsas",
+  "populacao": 101767,
+  "area": 13141.162,
+  "densidade": 7.74,
+  "variacao": 18239,
+  "crescimento": 1.66
+ },
+ {
+  "id": "2109908",
+  "nome": "Santa Inês",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 85014,
+  "area": 786.689,
+  "densidade": 108.07,
+  "variacao": 1811,
+  "crescimento": 0.18
+ },
+ {
+  "id": "2108603",
+  "nome": "Pinheiro",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 84621,
+  "area": 1512.969,
+  "densidade": 55.93,
+  "variacao": 6459,
+  "crescimento": 0.66
+ },
+ {
+  "id": "2101608",
+  "nome": "Barra do Corda",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Alto Mearim e Grajaú",
+  "populacao": 84532,
+  "area": 5187.673,
+  "densidade": 16.29,
+  "variacao": 1952,
+  "crescimento": 0.19
+ },
+ {
+  "id": "2103208",
+  "nome": "Chapadinha",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadinha",
+  "populacao": 81386,
+  "area": 3247.385,
+  "densidade": 25.06,
+  "variacao": 8036,
+  "crescimento": 0.87
+ },
+ {
+  "id": "2104800",
+  "nome": "Grajaú",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Alto Mearim e Grajaú",
+  "populacao": 73872,
+  "area": 8861.717,
+  "densidade": 8.34,
+  "variacao": 11638,
+  "crescimento": 1.44
+ },
+ {
+  "id": "2101707",
+  "nome": "Barreirinhas",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Lençóis Maranhenses",
+  "populacao": 65589,
+  "area": 3046.308,
+  "densidade": 21.53,
+  "variacao": 10560,
+  "crescimento": 1.47
+ },
+ {
+  "id": "2105401",
+  "nome": "Itapecuru Mirim",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Itapecuru Mirim",
+  "populacao": 60440,
+  "area": 1480.641,
+  "densidade": 40.82,
+  "variacao": -1670,
+  "crescimento": -0.23
+ },
+ {
+  "id": "2103604",
+  "nome": "Coroatá",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Codó",
+  "populacao": 59566,
+  "area": 2263.692,
+  "densidade": 26.31,
+  "variacao": -2159,
+  "crescimento": -0.3
+ },
+ {
+  "id": "2110005",
+  "nome": "Santa Luzia",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 57635,
+  "area": 4837.169,
+  "densidade": 11.92,
+  "variacao": -11549,
+  "crescimento": -1.51
+ },
+ {
+  "id": "2102325",
+  "nome": "Buriticupu",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 55499,
+  "area": 2544.857,
+  "densidade": 21.81,
+  "variacao": -9738,
+  "crescimento": -1.34
+ },
+ {
+  "id": "2112506",
+  "nome": "Tutóia",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Lençóis Maranhenses",
+  "populacao": 53356,
+  "area": 1566.08,
+  "densidade": 34.07,
+  "variacao": 568,
+  "crescimento": 0.09
+ },
+ {
+  "id": "2112803",
+  "nome": "Viana",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 51442,
+  "area": 1166.745,
+  "densidade": 44.09,
+  "variacao": 1946,
+  "crescimento": 0.32
+ },
+ {
+  "id": "2110500",
+  "nome": "São Bento",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 46395,
+  "area": 456.997,
+  "densidade": 101.52,
+  "variacao": 5659,
+  "crescimento": 1.09
+ },
+ {
+  "id": "2109106",
+  "nome": "Presidente Dutra",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Presidente Dutra",
+  "populacao": 45155,
+  "area": 771.574,
+  "densidade": 58.52,
+  "variacao": 424,
+  "crescimento": 0.08
+ },
+ {
+  "id": "2105708",
+  "nome": "Lago da Pedra",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 44403,
+  "area": 1240.444,
+  "densidade": 35.8,
+  "variacao": -1680,
+  "crescimento": -0.31
+ },
+ {
+  "id": "2112704",
+  "nome": "Vargem Grande",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Itapecuru Mirim",
+  "populacao": 43261,
+  "area": 1958.702,
+  "densidade": 22.09,
+  "variacao": -6151,
+  "crescimento": -1.1
+ },
+ {
+  "id": "2103406",
+  "nome": "Coelho Neto",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Coelho Neto",
+  "populacao": 41658,
+  "area": 977.079,
+  "densidade": 42.64,
+  "variacao": -5092,
+  "crescimento": -0.96
+ },
+ {
+  "id": "2109809",
+  "nome": "Santa Helena",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 41561,
+  "area": 2191.168,
+  "densidade": 18.97,
+  "variacao": 3483,
+  "crescimento": 0.73
+ },
+ {
+  "id": "2114007",
+  "nome": "Zé Doca",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 40801,
+  "area": 2140.109,
+  "densidade": 19.06,
+  "variacao": -7689,
+  "crescimento": -1.43
+ },
+ {
+  "id": "2103505",
+  "nome": "Colinas",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadas do Alto Itapecuru",
+  "populacao": 40316,
+  "area": 1978.695,
+  "densidade": 20.38,
+  "variacao": 1184,
+  "crescimento": 0.25
+ },
+ {
+  "id": "2100907",
+  "nome": "Araioses",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Baixo Parnaíba Maranhense",
+  "populacao": 39052,
+  "area": 1789.73,
+  "densidade": 21.82,
+  "variacao": -3453,
+  "crescimento": -0.7
+ },
+ {
+  "id": "2111508",
+  "nome": "São Mateus do Maranhão",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 38829,
+  "area": 800.045,
+  "densidade": 48.53,
+  "variacao": -156,
+  "crescimento": -0.03
+ },
+ {
+  "id": "2109601",
+  "nome": "Rosário",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Rosário",
+  "populacao": 38475,
+  "area": 647.998,
+  "densidade": 59.38,
+  "variacao": -1101,
+  "crescimento": -0.23
+ },
+ {
+  "id": "2112407",
+  "nome": "Turiaçu",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Gurupi",
+  "populacao": 37491,
+  "area": 2622.281,
+  "densidade": 14.3,
+  "variacao": 3558,
+  "crescimento": 0.83
+ },
+ {
+  "id": "2100600",
+  "nome": "Amarante do Maranhão",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 37085,
+  "area": 7439.615,
+  "densidade": 4.98,
+  "variacao": -847,
+  "crescimento": -0.19
+ },
+ {
+  "id": "2108207",
+  "nome": "Pedreiras",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 37050,
+  "area": 262.066,
+  "densidade": 141.38,
+  "variacao": -1727,
+  "crescimento": -0.38
+ },
+ {
+  "id": "2110203",
+  "nome": "Santa Rita",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Rosário",
+  "populacao": 37035,
+  "area": 756.797,
+  "densidade": 48.94,
+  "variacao": 3957,
+  "crescimento": 0.95
+ },
+ {
+  "id": "2112308",
+  "nome": "Tuntum",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Alto Mearim e Grajaú",
+  "populacao": 36251,
+  "area": 3369.121,
+  "densidade": 10.76,
+  "variacao": -2860,
+  "crescimento": -0.63
+ },
+ {
+  "id": "2102101",
+  "nome": "Brejo",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadinha",
+  "populacao": 34120,
+  "area": 1073.258,
+  "densidade": 31.79,
+  "variacao": 761,
+  "crescimento": 0.19
+ },
+ {
+  "id": "2110708",
+  "nome": "São Domingos do Maranhão",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Presidente Dutra",
+  "populacao": 34034,
+  "area": 1151.978,
+  "densidade": 29.54,
+  "variacao": 427,
+  "crescimento": 0.11
+ },
+ {
+  "id": "2104057",
+  "nome": "Estreito",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Porto Franco",
+  "populacao": 33294,
+  "area": 2720.266,
+  "densidade": 12.24,
+  "variacao": -2541,
+  "crescimento": -0.61
+ },
+ {
+  "id": "2102002",
+  "nome": "Bom Jardim",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 33100,
+  "area": 6588.38,
+  "densidade": 5.02,
+  "variacao": -5949,
+  "crescimento": -1.37
+ },
+ {
+  "id": "2112605",
+  "nome": "Urbano Santos",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadinha",
+  "populacao": 32812,
+  "area": 1707.621,
+  "densidade": 19.22,
+  "variacao": 3426,
+  "crescimento": 0.92
+ },
+ {
+  "id": "2108306",
+  "nome": "Penalva",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 32511,
+  "area": 800.916,
+  "densidade": 40.59,
+  "variacao": -2809,
+  "crescimento": -0.69
+ },
+ {
+  "id": "2106607",
+  "nome": "Matões",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Caxias",
+  "populacao": 32174,
+  "area": 2108.671,
+  "densidade": 15.26,
+  "variacao": 536,
+  "crescimento": 0.14
+ },
+ {
+  "id": "2112456",
+  "nome": "Turilândia",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Gurupi",
+  "populacao": 31638,
+  "area": 1507.622,
+  "densidade": 20.99,
+  "variacao": 8792,
+  "crescimento": 2.75
+ },
+ {
+  "id": "2103703",
+  "nome": "Cururupu",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Litoral Ocidental Maranhense",
+  "populacao": 31558,
+  "area": 1257.608,
+  "densidade": 25.09,
+  "variacao": -1094,
+  "crescimento": -0.28
+ },
+ {
+  "id": "2108504",
+  "nome": "Pindaré-Mirim",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 31429,
+  "area": 268.285,
+  "densidade": 117.15,
+  "variacao": 277,
+  "crescimento": 0.07
+ },
+ {
+  "id": "2107803",
+  "nome": "Parnarama",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Caxias",
+  "populacao": 31250,
+  "area": 3245.525,
+  "densidade": 9.63,
+  "variacao": -2031,
+  "crescimento": -0.52
+ },
+ {
+  "id": "2113009",
+  "nome": "Vitorino Freire",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 30845,
+  "area": 1193.385,
+  "densidade": 25.85,
+  "variacao": -52,
+  "crescimento": -0.01
+ },
+ {
+  "id": "2109452",
+  "nome": "Raposa",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Aglomeração Urbana de São Luís",
+  "populacao": 30839,
+  "area": 79.213,
+  "densidade": 389.32,
+  "variacao": 4470,
+  "crescimento": 1.31
+ },
+ {
+  "id": "2112902",
+  "nome": "Vitória do Mearim",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 30805,
+  "area": 716.719,
+  "densidade": 42.98,
+  "variacao": -412,
+  "crescimento": -0.11
+ },
+ {
+  "id": "2102200",
+  "nome": "Buriti",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadinha",
+  "populacao": 29685,
+  "area": 1475.779,
+  "densidade": 20.11,
+  "variacao": 2672,
+  "crescimento": 0.79
+ },
+ {
+  "id": "2101004",
+  "nome": "Arari",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 29472,
+  "area": 1100.275,
+  "densidade": 26.79,
+  "variacao": 984,
+  "crescimento": 0.28
+ },
+ {
+  "id": "2102036",
+  "nome": "Bom Jesus das Selvas",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 28599,
+  "area": 2676.98,
+  "densidade": 10.68,
+  "variacao": 140,
+  "crescimento": 0.04
+ },
+ {
+  "id": "2106904",
+  "nome": "Monção",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 27751,
+  "area": 1245.548,
+  "densidade": 22.28,
+  "variacao": -2934,
+  "crescimento": -0.83
+ },
+ {
+  "id": "2110609",
+  "nome": "São Bernardo",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Baixo Parnaíba Maranhense",
+  "populacao": 26943,
+  "area": 1005.824,
+  "densidade": 26.79,
+  "variacao": 467,
+  "crescimento": 0.15
+ },
+ {
+  "id": "2112100",
+  "nome": "Timbiras",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Codó",
+  "populacao": 26484,
+  "area": 1486.584,
+  "densidade": 17.82,
+  "variacao": -1513,
+  "crescimento": -0.46
+ },
+ {
+  "id": "2100477",
+  "nome": "Alto Alegre do Pindaré",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 25710,
+  "area": 1875.901,
+  "densidade": 13.71,
+  "variacao": -5342,
+  "crescimento": -1.56
+ },
+ {
+  "id": "2105005",
+  "nome": "Humberto de Campos",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Lençóis Maranhenses",
+  "populacao": 25680,
+  "area": 1714.625,
+  "densidade": 14.98,
+  "variacao": -509,
+  "crescimento": -0.16
+ },
+ {
+  "id": "2100956",
+  "nome": "Arame",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Alto Mearim e Grajaú",
+  "populacao": 25517,
+  "area": 2976.039,
+  "densidade": 8.57,
+  "variacao": -5954,
+  "crescimento": -1.73
+ },
+ {
+  "id": "2100709",
+  "nome": "Anajatuba",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 25322,
+  "area": 940.489,
+  "densidade": 26.92,
+  "variacao": 743,
+  "crescimento": 0.25
+ },
+ {
+  "id": "2111102",
+  "nome": "São João dos Patos",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadas do Alto Itapecuru",
+  "populacao": 25020,
+  "area": 1483.255,
+  "densidade": 16.87,
+  "variacao": 227,
+  "crescimento": 0.08
+ },
+ {
+  "id": "2105104",
+  "nome": "Icatu",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Rosário",
+  "populacao": 24794,
+  "area": 1124.445,
+  "densidade": 22.05,
+  "variacao": -351,
+  "crescimento": -0.12
+ },
+ {
+  "id": "2105500",
+  "nome": "João Lisboa",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 24709,
+  "area": 1137.104,
+  "densidade": 21.73,
+  "variacao": 809,
+  "crescimento": 0.28
+ },
+ {
+  "id": "2108256",
+  "nome": "Pedro do Rosário",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 24320,
+  "area": 1753.867,
+  "densidade": 13.87,
+  "variacao": 1588,
+  "crescimento": 0.56
+ },
+ {
+  "id": "2110039",
+  "nome": "Santa Luzia do Paruá",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 24307,
+  "area": 1010.483,
+  "densidade": 24.05,
+  "variacao": 631,
+  "crescimento": 0.22
+ },
+ {
+  "id": "2102705",
+  "nome": "Cantanhede",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Itapecuru Mirim",
+  "populacao": 24303,
+  "area": 773.01,
+  "densidade": 31.44,
+  "variacao": 3855,
+  "crescimento": 1.45
+ },
+ {
+  "id": "2102903",
+  "nome": "Carutapera",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Gurupi",
+  "populacao": 24238,
+  "area": 1260.977,
+  "densidade": 19.22,
+  "variacao": 2232,
+  "crescimento": 0.81
+ },
+ {
+  "id": "2102804",
+  "nome": "Carolina",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Porto Franco",
+  "populacao": 24062,
+  "area": 6267.675,
+  "densidade": 3.84,
+  "variacao": 244,
+  "crescimento": 0.08
+ },
+ {
+  "id": "2100436",
+  "nome": "Alto Alegre do Maranhão",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Codó",
+  "populacao": 24048,
+  "area": 392.75,
+  "densidade": 61.23,
+  "variacao": -1116,
+  "crescimento": -0.38
+ },
+ {
+  "id": "2110104",
+  "nome": "Santa Quitéria do Maranhão",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Baixo Parnaíba Maranhense",
+  "populacao": 23957,
+  "area": 1430.33,
+  "densidade": 16.75,
+  "variacao": -64,
+  "crescimento": -0.02
+ },
+ {
+  "id": "2109007",
+  "nome": "Porto Franco",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Porto Franco",
+  "populacao": 23903,
+  "area": 1420.51,
+  "densidade": 16.83,
+  "variacao": 2373,
+  "crescimento": 0.88
+ },
+ {
+  "id": "2106755",
+  "nome": "Miranda do Norte",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Itapecuru Mirim",
+  "populacao": 23864,
+  "area": 341.107,
+  "densidade": 69.96,
+  "variacao": -563,
+  "crescimento": -0.19
+ },
+ {
+  "id": "2100303",
+  "nome": "Aldeias Altas",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Coelho Neto",
+  "populacao": 23286,
+  "area": 1942.121,
+  "densidade": 11.99,
+  "variacao": -666,
+  "crescimento": -0.23
+ },
+ {
+  "id": "2104677",
+  "nome": "Governador Nunes Freire",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Gurupi",
+  "populacao": 23128,
+  "area": 1037.13,
+  "densidade": 22.3,
+  "variacao": -2273,
+  "crescimento": -0.78
+ },
+ {
+  "id": "2103802",
+  "nome": "Dom Pedro",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Presidente Dutra",
+  "populacao": 23053,
+  "area": 358.493,
+  "densidade": 64.31,
+  "variacao": 372,
+  "crescimento": 0.14
+ },
+ {
+  "id": "2105427",
+  "nome": "Itinga do Maranhão",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 22513,
+  "area": 3583.423,
+  "densidade": 6.28,
+  "variacao": -2350,
+  "crescimento": -0.82
+ },
+ {
+  "id": "2112233",
+  "nome": "Trizidela do Vale",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 22484,
+  "area": 291.61,
+  "densidade": 77.1,
+  "variacao": 1955,
+  "crescimento": 0.76
+ },
+ {
+  "id": "2102309",
+  "nome": "Buriti Bravo",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Caxias",
+  "populacao": 22455,
+  "area": 1582.552,
+  "densidade": 14.19,
+  "variacao": -444,
+  "crescimento": -0.16
+ },
+ {
+  "id": "2109502",
+  "nome": "Riachão",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Gerais de Balsas",
+  "populacao": 22145,
+  "area": 6402.83,
+  "densidade": 3.46,
+  "variacao": 1758,
+  "crescimento": 0.69
+ },
+ {
+  "id": "2106508",
+  "nome": "Matinha",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 22034,
+  "area": 410.632,
+  "densidade": 53.66,
+  "variacao": 149,
+  "crescimento": 0.06
+ },
+ {
+  "id": "2108702",
+  "nome": "Pio XII",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 21886,
+  "area": 545.14,
+  "densidade": 40.15,
+  "variacao": -130,
+  "crescimento": -0.05
+ },
+ {
+  "id": "2106326",
+  "nome": "Maracaçumé",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Gurupi",
+  "populacao": 21149,
+  "area": 635.758,
+  "densidade": 33.27,
+  "variacao": 1915,
+  "crescimento": 0.79
+ },
+ {
+  "id": "2107605",
+  "nome": "Palmeirândia",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 21059,
+  "area": 532.161,
+  "densidade": 39.57,
+  "variacao": 2279,
+  "crescimento": 0.96
+ },
+ {
+  "id": "2106706",
+  "nome": "Mirador",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadas do Alto Itapecuru",
+  "populacao": 21030,
+  "area": 8522.351,
+  "densidade": 2.47,
+  "variacao": 578,
+  "crescimento": 0.23
+ },
+ {
+  "id": "2108454",
+  "nome": "Peritoró",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Codó",
+  "populacao": 20479,
+  "area": 824.725,
+  "densidade": 24.83,
+  "variacao": -722,
+  "crescimento": -0.29
+ },
+ {
+  "id": "2108108",
+  "nome": "Paulo Ramos",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 20341,
+  "area": 1168.609,
+  "densidade": 17.41,
+  "variacao": -42,
+  "crescimento": -0.02
+ },
+ {
+  "id": "2102606",
+  "nome": "Cândido Mendes",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Gurupi",
+  "populacao": 19932,
+  "area": 1634.861,
+  "densidade": 12.19,
+  "variacao": 1068,
+  "crescimento": 0.46
+ },
+ {
+  "id": "2101905",
+  "nome": "Bequimão",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Litoral Ocidental Maranhense",
+  "populacao": 19584,
+  "area": 790.222,
+  "densidade": 24.78,
+  "variacao": -1090,
+  "crescimento": -0.45
+ },
+ {
+  "id": "2111706",
+  "nome": "São Vicente Ferrer",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 19498,
+  "area": 393.928,
+  "densidade": 49.5,
+  "variacao": -1365,
+  "crescimento": -0.56
+ },
+ {
+  "id": "2101509",
+  "nome": "Barão de Grajaú",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadas do Alto Itapecuru",
+  "populacao": 18984,
+  "area": 2209.414,
+  "densidade": 8.59,
+  "variacao": 1491,
+  "crescimento": 0.68
+ },
+ {
+  "id": "2108009",
+  "nome": "Pastos Bons",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadas do Alto Itapecuru",
+  "populacao": 18802,
+  "area": 1635.181,
+  "densidade": 11.5,
+  "variacao": 735,
+  "crescimento": 0.33
+ },
+ {
+  "id": "2111607",
+  "nome": "São Raimundo das Mangabeiras",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Chapadas das Mangabeiras",
+  "populacao": 18672,
+  "area": 3524.501,
+  "densidade": 5.3,
+  "variacao": 1198,
+  "crescimento": 0.55
+ },
+ {
+  "id": "2107100",
+  "nome": "Morros",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Rosário",
+  "populacao": 18554,
+  "area": 1712.121,
+  "densidade": 10.84,
+  "variacao": 771,
+  "crescimento": 0.35
+ },
+ {
+  "id": "2111003",
+  "nome": "São João Batista",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 18544,
+  "area": 649.956,
+  "densidade": 28.53,
+  "variacao": -1376,
+  "crescimento": -0.59
+ },
+ {
+  "id": "2100204",
+  "nome": "Alcântara",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Litoral Ocidental Maranhense",
+  "populacao": 18467,
+  "area": 1167.964,
+  "densidade": 15.81,
+  "variacao": -3054,
+  "crescimento": -1.27
+ },
+ {
+  "id": "2104552",
+  "nome": "Governador Edison Lobão",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 18411,
+  "area": 615.957,
+  "densidade": 29.89,
+  "variacao": 2516,
+  "crescimento": 1.23
+ },
+ {
+  "id": "2110401",
+  "nome": "São Benedito do Rio Preto",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadinha",
+  "populacao": 18364,
+  "area": 931.485,
+  "densidade": 19.71,
+  "variacao": 565,
+  "crescimento": 0.26
+ },
+ {
+  "id": "2104008",
+  "nome": "Esperantinópolis",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 18311,
+  "area": 452.411,
+  "densidade": 40.47,
+  "variacao": 185,
+  "crescimento": 0.08
+ },
+ {
+  "id": "2107704",
+  "nome": "Paraibano",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadas do Alto Itapecuru",
+  "populacao": 18274,
+  "area": 530.517,
+  "densidade": 34.45,
+  "variacao": -1829,
+  "crescimento": -0.79
+ },
+ {
+  "id": "2107407",
+  "nome": "Olho d'Água das Cunhãs",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 17919,
+  "area": 695.333,
+  "densidade": 25.77,
+  "variacao": -682,
+  "crescimento": -0.31
+ },
+ {
+  "id": "2111409",
+  "nome": "São Luís Gonzaga do Maranhão",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 17818,
+  "area": 909.164,
+  "densidade": 19.6,
+  "variacao": -1827,
+  "crescimento": -0.81
+ },
+ {
+  "id": "2104099",
+  "nome": "Formosa da Serra Negra",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Alto Mearim e Grajaú",
+  "populacao": 17719,
+  "area": 3690.61,
+  "densidade": 4.8,
+  "variacao": 550,
+  "crescimento": 0.26
+ },
+ {
+  "id": "2108801",
+  "nome": "Pirapemas",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Itapecuru Mirim",
+  "populacao": 17714,
+  "area": 688.761,
+  "densidade": 25.72,
+  "variacao": 333,
+  "crescimento": 0.16
+ },
+ {
+  "id": "2100832",
+  "nome": "Apicum-Açu",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Litoral Ocidental Maranhense",
+  "populacao": 17519,
+  "area": 341.12,
+  "densidade": 51.36,
+  "variacao": 2196,
+  "crescimento": 1.12
+ },
+ {
+  "id": "2109270",
+  "nome": "Presidente Sarney",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 17511,
+  "area": 726.172,
+  "densidade": 24.11,
+  "variacao": 346,
+  "crescimento": 0.17
+ },
+ {
+  "id": "2106631",
+  "nome": "Matões do Norte",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Itapecuru Mirim",
+  "populacao": 17432,
+  "area": 794.454,
+  "densidade": 21.94,
+  "variacao": 3638,
+  "crescimento": 1.97
+ },
+ {
+  "id": "2107902",
+  "nome": "Passagem Franca",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadas do Alto Itapecuru",
+  "populacao": 17220,
+  "area": 1358.327,
+  "densidade": 12.68,
+  "variacao": -342,
+  "crescimento": -0.16
+ },
+ {
+  "id": "2104404",
+  "nome": "Gonçalves Dias",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Presidente Dutra",
+  "populacao": 17206,
+  "area": 883.588,
+  "densidade": 19.47,
+  "variacao": -276,
+  "crescimento": -0.13
+ },
+ {
+  "id": "2108900",
+  "nome": "Poção de Pedras",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 17161,
+  "area": 990.415,
+  "densidade": 17.33,
+  "variacao": -2873,
+  "crescimento": -1.28
+ },
+ {
+  "id": "2106409",
+  "nome": "Mata Roma",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadinha",
+  "populacao": 17090,
+  "area": 548.548,
+  "densidade": 31.15,
+  "variacao": 1940,
+  "crescimento": 1.01
+ },
+ {
+  "id": "2105476",
+  "nome": "Jenipapo dos Vieiras",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Alto Mearim e Grajaú",
+  "populacao": 17076,
+  "area": 1962.362,
+  "densidade": 8.7,
+  "variacao": 1237,
+  "crescimento": 0.63
+ },
+ {
+  "id": "2111805",
+  "nome": "Sítio Novo",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Alto Mearim e Grajaú",
+  "populacao": 17074,
+  "area": 3114.683,
+  "densidade": 5.48,
+  "variacao": 72,
+  "crescimento": 0.04
+ },
+ {
+  "id": "2108058",
+  "nome": "Paulino Neves",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Lençóis Maranhenses",
+  "populacao": 17056,
+  "area": 979.482,
+  "densidade": 17.41,
+  "variacao": 2537,
+  "crescimento": 1.35
+ },
+ {
+  "id": "2104206",
+  "nome": "Fortuna",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Presidente Dutra",
+  "populacao": 16976,
+  "area": 834.83,
+  "densidade": 20.33,
+  "variacao": -227,
+  "crescimento": -0.11
+ },
+ {
+  "id": "2101251",
+  "nome": "Bacabeira",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Rosário",
+  "populacao": 16966,
+  "area": 542.962,
+  "densidade": 31.25,
+  "variacao": 2041,
+  "crescimento": 1.07
+ },
+ {
+  "id": "2111078",
+  "nome": "São João do Soter",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Caxias",
+  "populacao": 16889,
+  "area": 1438.067,
+  "densidade": 11.74,
+  "variacao": -349,
+  "crescimento": -0.17
+ },
+ {
+  "id": "2102507",
+  "nome": "Cajari",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 16412,
+  "area": 662.066,
+  "densidade": 24.79,
+  "variacao": -1926,
+  "crescimento": -0.92
+ },
+ {
+  "id": "2101301",
+  "nome": "Bacuri",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Litoral Ocidental Maranhense",
+  "populacao": 16290,
+  "area": 850.491,
+  "densidade": 19.15,
+  "variacao": -1258,
+  "crescimento": -0.62
+ },
+ {
+  "id": "2103174",
+  "nome": "Centro Novo do Maranhão",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Gurupi",
+  "populacao": 16267,
+  "area": 8401.003,
+  "densidade": 1.94,
+  "variacao": -2936,
+  "crescimento": -1.37
+ },
+ {
+  "id": "2105609",
+  "nome": "Joselândia",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Alto Mearim e Grajaú",
+  "populacao": 14924,
+  "area": 703.081,
+  "densidade": 21.23,
+  "variacao": -637,
+  "crescimento": -0.35
+ },
+ {
+  "id": "2103554",
+  "nome": "Conceição do Lago-Açu",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 14915,
+  "area": 725.664,
+  "densidade": 20.55,
+  "variacao": 479,
+  "crescimento": 0.27
+ },
+ {
+  "id": "2105906",
+  "nome": "Lago Verde",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 14769,
+  "area": 631.455,
+  "densidade": 23.39,
+  "variacao": -643,
+  "crescimento": -0.35
+ },
+ {
+  "id": "2111763",
+  "nome": "Senador La Rocque",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 14700,
+  "area": 738.187,
+  "densidade": 19.91,
+  "variacao": 221,
+  "crescimento": 0.13
+ },
+ {
+  "id": "2103752",
+  "nome": "Davinópolis",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 14404,
+  "area": 332.249,
+  "densidade": 43.35,
+  "variacao": 1825,
+  "crescimento": 1.14
+ },
+ {
+  "id": "2111532",
+  "nome": "São Pedro da Água Branca",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 14338,
+  "area": 720.461,
+  "densidade": 19.9,
+  "variacao": 2310,
+  "crescimento": 1.47
+ },
+ {
+  "id": "2107357",
+  "nome": "Nova Olinda do Maranhão",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 14314,
+  "area": 2452.615,
+  "densidade": 5.84,
+  "variacao": -4820,
+  "crescimento": -2.39
+ },
+ {
+  "id": "2110302",
+  "nome": "Santo Antônio dos Lopes",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 14304,
+  "area": 770.923,
+  "densidade": 18.55,
+  "variacao": 16,
+  "crescimento": 0.01
+ },
+ {
+  "id": "2107209",
+  "nome": "Nina Rodrigues",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Itapecuru Mirim",
+  "populacao": 14176,
+  "area": 570.938,
+  "densidade": 24.83,
+  "variacao": 1712,
+  "crescimento": 1.08
+ },
+ {
+  "id": "2106805",
+  "nome": "Mirinzal",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Litoral Ocidental Maranhense",
+  "populacao": 13978,
+  "area": 686.942,
+  "densidade": 20.35,
+  "variacao": -240,
+  "crescimento": -0.14
+ },
+ {
+  "id": "2105153",
+  "nome": "Igarapé do Meio",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 13974,
+  "area": 368.685,
+  "densidade": 37.9,
+  "variacao": 1424,
+  "crescimento": 0.9
+ },
+ {
+  "id": "2110278",
+  "nome": "Santo Amaro do Maranhão",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Lençóis Maranhenses",
+  "populacao": 13949,
+  "area": 1582.806,
+  "densidade": 8.81,
+  "variacao": 129,
+  "crescimento": 0.08
+ },
+ {
+  "id": "2104602",
+  "nome": "Governador Eugênio Barros",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Presidente Dutra",
+  "populacao": 13930,
+  "area": 647.989,
+  "densidade": 21.5,
+  "variacao": 47,
+  "crescimento": 0.03
+ },
+ {
+  "id": "2105351",
+  "nome": "Itaipava do Grajaú",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Alto Mearim e Grajaú",
+  "populacao": 13828,
+  "area": 1244.398,
+  "densidade": 11.11,
+  "variacao": -282,
+  "crescimento": -0.17
+ },
+ {
+  "id": "2106300",
+  "nome": "Magalhães de Almeida",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Baixo Parnaíba Maranhense",
+  "populacao": 13807,
+  "area": 434.433,
+  "densidade": 31.78,
+  "variacao": -3780,
+  "crescimento": -2
+ },
+ {
+  "id": "2100808",
+  "nome": "Anapurus",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadinha",
+  "populacao": 13793,
+  "area": 608.903,
+  "densidade": 22.65,
+  "variacao": -146,
+  "crescimento": -0.09
+ },
+ {
+  "id": "2106375",
+  "nome": "Maranhãozinho",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Gurupi",
+  "populacao": 13761,
+  "area": 760.947,
+  "densidade": 18.08,
+  "variacao": 64,
+  "crescimento": 0.04
+ },
+ {
+  "id": "2109403",
+  "nome": "Primeira Cruz",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Lençóis Maranhenses",
+  "populacao": 13614,
+  "area": 1337.161,
+  "densidade": 10.18,
+  "variacao": -340,
+  "crescimento": -0.21
+ },
+ {
+  "id": "2107456",
+  "nome": "Olinda Nova do Maranhão",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 13577,
+  "area": 199.879,
+  "densidade": 67.93,
+  "variacao": 396,
+  "crescimento": 0.25
+ },
+ {
+  "id": "2102358",
+  "nome": "Buritirana",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 12918,
+  "area": 820.968,
+  "densidade": 15.74,
+  "variacao": -1866,
+  "crescimento": -1.12
+ },
+ {
+  "id": "2103257",
+  "nome": "Cidelândia",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 12878,
+  "area": 1462.809,
+  "densidade": 8.8,
+  "variacao": -803,
+  "crescimento": -0.5
+ },
+ {
+  "id": "2104107",
+  "nome": "Fortaleza dos Nogueiras",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Chapadas das Mangabeiras",
+  "populacao": 12640,
+  "area": 1853.406,
+  "densidade": 6.82,
+  "variacao": 406,
+  "crescimento": 0.27
+ },
+ {
+  "id": "2103158",
+  "nome": "Centro do Guilherme",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Gurupi",
+  "populacao": 12342,
+  "area": 1167.848,
+  "densidade": 10.57,
+  "variacao": 1069,
+  "crescimento": 0.76
+ },
+ {
+  "id": "2102556",
+  "nome": "Campestre do Maranhão",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Porto Franco",
+  "populacao": 12301,
+  "area": 613.529,
+  "densidade": 20.05,
+  "variacao": -1068,
+  "crescimento": -0.69
+ },
+ {
+  "id": "2111029",
+  "nome": "São João do Carú",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 12251,
+  "area": 910.065,
+  "densidade": 13.46,
+  "variacao": -3417,
+  "crescimento": -2.03
+ },
+ {
+  "id": "2102077",
+  "nome": "Bom Lugar",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 12212,
+  "area": 445.171,
+  "densidade": 27.43,
+  "variacao": -2454,
+  "crescimento": -1.51
+ },
+ {
+  "id": "2100154",
+  "nome": "Água Doce do Maranhão",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Baixo Parnaíba Maranhense",
+  "populacao": 12142,
+  "area": 442.292,
+  "densidade": 27.45,
+  "variacao": 561,
+  "crescimento": 0.39
+ },
+ {
+  "id": "2110906",
+  "nome": "São Francisco do Maranhão",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadas do Alto Itapecuru",
+  "populacao": 12064,
+  "area": 2284.217,
+  "densidade": 5.28,
+  "variacao": 181,
+  "crescimento": 0.13
+ },
+ {
+  "id": "2101103",
+  "nome": "Axixá",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Rosário",
+  "populacao": 11790,
+  "area": 160.462,
+  "densidade": 73.48,
+  "variacao": 383,
+  "crescimento": 0.28
+ },
+ {
+  "id": "2101772",
+  "nome": "Bela Vista do Maranhão",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 11750,
+  "area": 147.954,
+  "densidade": 79.42,
+  "variacao": 1401,
+  "crescimento": 1.06
+ },
+ {
+  "id": "2106102",
+  "nome": "Loreto",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Chapadas das Mangabeiras",
+  "populacao": 11597,
+  "area": 3597.231,
+  "densidade": 3.22,
+  "variacao": 207,
+  "crescimento": 0.15
+ },
+ {
+  "id": "2105963",
+  "nome": "Lagoa Grande do Maranhão",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 11411,
+  "area": 744.199,
+  "densidade": 15.33,
+  "variacao": 894,
+  "crescimento": 0.68
+ },
+ {
+  "id": "2102754",
+  "nome": "Capinzal do Norte",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Codó",
+  "populacao": 11374,
+  "area": 590.267,
+  "densidade": 19.27,
+  "variacao": 676,
+  "crescimento": 0.51
+ },
+ {
+  "id": "2109205",
+  "nome": "Presidente Juscelino",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Rosário",
+  "populacao": 11356,
+  "area": 355.568,
+  "densidade": 31.94,
+  "variacao": -185,
+  "crescimento": -0.13
+ },
+ {
+  "id": "2106003",
+  "nome": "Lima Campos",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 11297,
+  "area": 321.932,
+  "densidade": 35.09,
+  "variacao": -126,
+  "crescimento": -0.09
+ },
+ {
+  "id": "2100873",
+  "nome": "Araguanã",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 11181,
+  "area": 805.194,
+  "densidade": 13.89,
+  "variacao": -2792,
+  "crescimento": -1.84
+ },
+ {
+  "id": "2100501",
+  "nome": "Alto Parnaíba",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Gerais de Balsas",
+  "populacao": 11109,
+  "area": 11127.384,
+  "densidade": 1,
+  "variacao": 343,
+  "crescimento": 0.26
+ },
+ {
+  "id": "2108405",
+  "nome": "Peri Mirim",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Baixada Maranhense",
+  "populacao": 11108,
+  "area": 397.994,
+  "densidade": 27.91,
+  "variacao": -2679,
+  "crescimento": -1.78
+ },
+ {
+  "id": "2104081",
+  "nome": "Fernando Falcão",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Alto Mearim e Grajaú",
+  "populacao": 10873,
+  "area": 5086.589,
+  "densidade": 2.14,
+  "variacao": 1632,
+  "crescimento": 1.36
+ },
+ {
+  "id": "2104651",
+  "nome": "Governador Newton Bello",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 10713,
+  "area": 1144.146,
+  "densidade": 9.36,
+  "variacao": 468,
+  "crescimento": 0.37
+ },
+ {
+  "id": "2105922",
+  "nome": "Lagoa do Mato",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadas do Alto Itapecuru",
+  "populacao": 10572,
+  "area": 1512.985,
+  "densidade": 6.99,
+  "variacao": -315,
+  "crescimento": -0.24
+ },
+ {
+  "id": "2110237",
+  "nome": "Santana do Maranhão",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Baixo Parnaíba Maranhense",
+  "populacao": 10567,
+  "area": 932.03,
+  "densidade": 11.34,
+  "variacao": -1094,
+  "crescimento": -0.82
+ },
+ {
+  "id": "2109304",
+  "nome": "Presidente Vargas",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Itapecuru Mirim",
+  "populacao": 10549,
+  "area": 460.004,
+  "densidade": 22.93,
+  "variacao": -168,
+  "crescimento": -0.13
+ },
+ {
+  "id": "2112852",
+  "nome": "Vila Nova dos Martírios",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 10362,
+  "area": 1190.008,
+  "densidade": 8.71,
+  "variacao": -896,
+  "crescimento": -0.69
+ },
+ {
+  "id": "2104909",
+  "nome": "Guimarães",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Litoral Ocidental Maranhense",
+  "populacao": 10290,
+  "area": 478.857,
+  "densidade": 21.49,
+  "variacao": -1791,
+  "crescimento": -1.33
+ },
+ {
+  "id": "2111904",
+  "nome": "Sucupira do Norte",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadas do Alto Itapecuru",
+  "populacao": 10238,
+  "area": 1074.435,
+  "densidade": 9.53,
+  "variacao": -206,
+  "crescimento": -0.17
+ },
+ {
+  "id": "2104503",
+  "nome": "Governador Archer",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Presidente Dutra",
+  "populacao": 10231,
+  "area": 445.856,
+  "densidade": 22.95,
+  "variacao": 26,
+  "crescimento": 0.02
+ },
+ {
+  "id": "2105203",
+  "nome": "Igarapé Grande",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 10231,
+  "area": 346.218,
+  "densidade": 29.55,
+  "variacao": -254,
+  "crescimento": -0.2
+ },
+ {
+  "id": "2103901",
+  "nome": "Duque Bacelar",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Coelho Neto",
+  "populacao": 10223,
+  "area": 317.494,
+  "densidade": 32.2,
+  "variacao": -426,
+  "crescimento": -0.34
+ },
+ {
+  "id": "2103109",
+  "nome": "Cedral",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Litoral Ocidental Maranhense",
+  "populacao": 10208,
+  "area": 285.211,
+  "densidade": 35.79,
+  "variacao": -89,
+  "crescimento": -0.07
+ },
+ {
+  "id": "2111748",
+  "nome": "Senador Alexandre Costa",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Presidente Dutra",
+  "populacao": 10207,
+  "area": 426.437,
+  "densidade": 23.94,
+  "variacao": -49,
+  "crescimento": -0.04
+ },
+ {
+  "id": "2111789",
+  "nome": "Serrano do Maranhão",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Litoral Ocidental Maranhense",
+  "populacao": 10202,
+  "area": 1165.318,
+  "densidade": 8.75,
+  "variacao": 570,
+  "crescimento": 0.48
+ },
+ {
+  "id": "2104305",
+  "nome": "Godofredo Viana",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Gurupi",
+  "populacao": 10186,
+  "area": 720.129,
+  "densidade": 14.14,
+  "variacao": -90,
+  "crescimento": -0.07
+ },
+ {
+  "id": "2102408",
+  "nome": "Cajapió",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Litoral Ocidental Maranhense",
+  "populacao": 10121,
+  "area": 545.244,
+  "densidade": 18.56,
+  "variacao": -472,
+  "crescimento": -0.38
+ },
+ {
+  "id": "2111052",
+  "nome": "São João do Paraíso",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Porto Franco",
+  "populacao": 9904,
+  "area": 2052.328,
+  "densidade": 4.83,
+  "variacao": -910,
+  "crescimento": -0.73
+ },
+ {
+  "id": "2102374",
+  "nome": "Cachoeira Grande",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Rosário",
+  "populacao": 9732,
+  "area": 707.236,
+  "densidade": 13.76,
+  "variacao": 1286,
+  "crescimento": 1.19
+ },
+ {
+  "id": "2105807",
+  "nome": "Lago do Junco",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 9506,
+  "area": 328.525,
+  "densidade": 28.94,
+  "variacao": -837,
+  "crescimento": -0.7
+ },
+ {
+  "id": "2102150",
+  "nome": "Brejo de Areia",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 9218,
+  "area": 986.036,
+  "densidade": 9.35,
+  "variacao": -1372,
+  "crescimento": -1.15
+ },
+ {
+  "id": "2107001",
+  "nome": "Montes Altos",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 9106,
+  "area": 1488.513,
+  "densidade": 6.12,
+  "variacao": -307,
+  "crescimento": -0.28
+ },
+ {
+  "id": "2110856",
+  "nome": "São Francisco do Brejão",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 9051,
+  "area": 745.357,
+  "densidade": 12.14,
+  "variacao": -1210,
+  "crescimento": -1.04
+ },
+ {
+  "id": "2112001",
+  "nome": "Tasso Fragoso",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Gerais de Balsas",
+  "populacao": 8862,
+  "area": 4369.159,
+  "densidade": 2.03,
+  "variacao": 1066,
+  "crescimento": 1.07
+ },
+ {
+  "id": "2106672",
+  "nome": "Milagres do Maranhão",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadinha",
+  "populacao": 8818,
+  "area": 634.818,
+  "densidade": 13.89,
+  "variacao": 700,
+  "crescimento": 0.69
+ },
+ {
+  "id": "2111722",
+  "nome": "Satubinha",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 8784,
+  "area": 441.811,
+  "densidade": 19.88,
+  "variacao": -3206,
+  "crescimento": -2.56
+ },
+ {
+  "id": "2105948",
+  "nome": "Lago dos Rodrigues",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 8758,
+  "area": 220.776,
+  "densidade": 39.67,
+  "variacao": -82,
+  "crescimento": -0.08
+ },
+ {
+  "id": "2101731",
+  "nome": "Belágua",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadinha",
+  "populacao": 8460,
+  "area": 569.606,
+  "densidade": 14.85,
+  "variacao": 1678,
+  "crescimento": 1.86
+ },
+ {
+  "id": "2104073",
+  "nome": "Feira Nova do Maranhão",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Gerais de Balsas",
+  "populacao": 8048,
+  "area": 1625.822,
+  "densidade": 4.95,
+  "variacao": -41,
+  "crescimento": -0.04
+ },
+ {
+  "id": "2110658",
+  "nome": "São Domingos do Azeitão",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Chapadas das Mangabeiras",
+  "populacao": 7992,
+  "area": 961.249,
+  "densidade": 8.31,
+  "variacao": 1009,
+  "crescimento": 1.13
+ },
+ {
+  "id": "2101970",
+  "nome": "Boa Vista do Gurupi",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Gurupi",
+  "populacao": 7574,
+  "area": 400.35,
+  "densidade": 18.92,
+  "variacao": 496,
+  "crescimento": 0.57
+ },
+ {
+  "id": "2105450",
+  "nome": "Jatobá",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadas do Alto Itapecuru",
+  "populacao": 7471,
+  "area": 591.616,
+  "densidade": 12.63,
+  "variacao": -1055,
+  "crescimento": -1.09
+ },
+ {
+  "id": "2109551",
+  "nome": "Ribamar Fiquene",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 7420,
+  "area": 733.458,
+  "densidade": 10.12,
+  "variacao": 102,
+  "crescimento": 0.12
+ },
+ {
+  "id": "2100550",
+  "nome": "Amapá do Maranhão",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Gurupi",
+  "populacao": 7170,
+  "area": 502.402,
+  "densidade": 14.27,
+  "variacao": 739,
+  "crescimento": 0.91
+ },
+ {
+  "id": "2106201",
+  "nome": "Luís Domingues",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Gurupi",
+  "populacao": 7161,
+  "area": 472.296,
+  "densidade": 15.16,
+  "variacao": 651,
+  "crescimento": 0.8
+ },
+ {
+  "id": "2103125",
+  "nome": "Central do Maranhão",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Litoral Ocidental Maranhense",
+  "populacao": 7094,
+  "area": 319.538,
+  "densidade": 22.2,
+  "variacao": -793,
+  "crescimento": -0.88
+ },
+ {
+  "id": "2104628",
+  "nome": "Governador Luiz Rocha",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Presidente Dutra",
+  "populacao": 7063,
+  "area": 401.587,
+  "densidade": 17.59,
+  "variacao": -277,
+  "crescimento": -0.32
+ },
+ {
+  "id": "2105989",
+  "nome": "Lajeado Novo",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Imperatriz",
+  "populacao": 7057,
+  "area": 1063.619,
+  "densidade": 6.63,
+  "variacao": 134,
+  "crescimento": 0.16
+ },
+ {
+  "id": "2106359",
+  "nome": "Marajá do Sena",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 7027,
+  "area": 1402.593,
+  "densidade": 5.01,
+  "variacao": -767,
+  "crescimento": -0.86
+ },
+ {
+  "id": "2111250",
+  "nome": "São José dos Basílios",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Presidente Dutra",
+  "populacao": 6957,
+  "area": 353.72,
+  "densidade": 19.67,
+  "variacao": -539,
+  "crescimento": -0.62
+ },
+ {
+  "id": "2109759",
+  "nome": "Santa Filomena do Maranhão",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Alto Mearim e Grajaú",
+  "populacao": 6697,
+  "area": 623.213,
+  "densidade": 10.75,
+  "variacao": -436,
+  "crescimento": -0.52
+ },
+ {
+  "id": "2100402",
+  "nome": "Altamira do Maranhão",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 6447,
+  "area": 524.374,
+  "densidade": 12.29,
+  "variacao": -960,
+  "crescimento": -1.15
+ },
+ {
+  "id": "2100105",
+  "nome": "Afonso Cunha",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Coelho Neto",
+  "populacao": 6144,
+  "area": 371.338,
+  "densidade": 16.55,
+  "variacao": 239,
+  "crescimento": 0.33
+ },
+ {
+  "id": "2104701",
+  "nome": "Graça Aranha",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Presidente Dutra",
+  "populacao": 6023,
+  "area": 271.445,
+  "densidade": 22.19,
+  "variacao": -117,
+  "crescimento": -0.16
+ },
+ {
+  "id": "2109056",
+  "nome": "Porto Rico do Maranhão",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Litoral Ocidental Maranhense",
+  "populacao": 5954,
+  "area": 244.979,
+  "densidade": 24.3,
+  "variacao": -76,
+  "crescimento": -0.11
+ },
+ {
+  "id": "2101939",
+  "nome": "Bernardo do Mearim",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 5840,
+  "area": 247.186,
+  "densidade": 23.63,
+  "variacao": 193,
+  "crescimento": 0.28
+ },
+ {
+  "id": "2111573",
+  "nome": "São Pedro dos Crentes",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Porto Franco",
+  "populacao": 5783,
+  "area": 979.915,
+  "densidade": 5.9,
+  "variacao": 1358,
+  "crescimento": 2.26
+ },
+ {
+  "id": "2111631",
+  "nome": "São Raimundo do Doca Bezerra",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 5650,
+  "area": 419.55,
+  "densidade": 13.47,
+  "variacao": -440,
+  "crescimento": -0.62
+ },
+ {
+  "id": "2109700",
+  "nome": "Sambaíba",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Chapadas das Mangabeiras",
+  "populacao": 5568,
+  "area": 2476.132,
+  "densidade": 2.25,
+  "variacao": 81,
+  "crescimento": 0.12
+ },
+ {
+  "id": "2112274",
+  "nome": "Tufilândia",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 5507,
+  "area": 270.934,
+  "densidade": 20.33,
+  "variacao": -89,
+  "crescimento": -0.13
+ },
+ {
+  "id": "2101806",
+  "nome": "Benedito Leite",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Chapadas das Mangabeiras",
+  "populacao": 5469,
+  "area": 1784.64,
+  "densidade": 3.06,
+  "variacao": 0,
+  "crescimento": 0
+ },
+ {
+  "id": "2101350",
+  "nome": "Bacurituba",
+  "mesorregiao": "Norte Maranhense",
+  "microrregiao": "Litoral Ocidental Maranhense",
+  "populacao": 5252,
+  "area": 413.651,
+  "densidade": 12.7,
+  "variacao": -41,
+  "crescimento": -0.06
+ },
+ {
+  "id": "2105658",
+  "nome": "Junco do Maranhão",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Gurupi",
+  "populacao": 5146,
+  "area": 568.499,
+  "densidade": 9.05,
+  "variacao": 255,
+  "crescimento": 0.42
+ },
+ {
+  "id": "2107258",
+  "nome": "Nova Colinas",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Chapadas das Mangabeiras",
+  "populacao": 5021,
+  "area": 743.085,
+  "densidade": 6.76,
+  "variacao": 136,
+  "crescimento": 0.23
+ },
+ {
+  "id": "2111953",
+  "nome": "Sucupira do Riachão",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadas do Alto Itapecuru",
+  "populacao": 4985,
+  "area": 862.226,
+  "densidade": 5.78,
+  "variacao": -421,
+  "crescimento": -0.67
+ },
+ {
+  "id": "2109239",
+  "nome": "Presidente Médici",
+  "mesorregiao": "Oeste Maranhense",
+  "microrregiao": "Pindaré",
+  "populacao": 4696,
+  "area": 437.687,
+  "densidade": 10.73,
+  "variacao": -1678,
+  "crescimento": -2.51
+ },
+ {
+  "id": "2111672",
+  "nome": "São Roberto",
+  "mesorregiao": "Centro Maranhense",
+  "microrregiao": "Médio Mearim",
+  "populacao": 4544,
+  "area": 226.811,
+  "densidade": 20.03,
+  "variacao": -1413,
+  "crescimento": -2.23
+ },
+ {
+  "id": "2110807",
+  "nome": "São Félix de Balsas",
+  "mesorregiao": "Sul Maranhense",
+  "microrregiao": "Chapadas das Mangabeiras",
+  "populacao": 4402,
+  "area": 2032.599,
+  "densidade": 2.17,
+  "variacao": -300,
+  "crescimento": -0.55
+ },
+ {
+  "id": "2107308",
+  "nome": "Nova Iorque",
+  "mesorregiao": "Leste Maranhense",
+  "microrregiao": "Chapadas do Alto Itapecuru",
+  "populacao": 4320,
+  "area": 978.34,
+  "densidade": 4.42,
+  "variacao": -270,
+  "crescimento": -0.5
+ }
 ]

@@ -20,7 +20,7 @@ export default function RodapeSite() {
             <p>
               IBGE, Censo Demográfico 2022
               <br />
-              Tabela 4714 do SIDRA, via API pública
+              Tabelas 4714 e 4709 do SIDRA e malha territorial, via API pública
             </p>
             <p>
               <a href="https://cidades.ibge.gov.br/" target="_blank" rel="noopener noreferrer">
@@ -34,6 +34,8 @@ export default function RodapeSite() {
               <Link to="/">Início</Link>
               <br />
               <Link to="/municipios">Municípios</Link>
+              <br />
+              <Link to="/mapa">Mapa</Link>
               <br />
               <Link to="/comparar">Comparar</Link>
               <br />

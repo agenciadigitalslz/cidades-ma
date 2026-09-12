@@ -47,6 +47,34 @@ export function IconeSol(props) {
   );
 }
 
+export function IconeEstrela(props) {
+  return (
+    <svg viewBox="0 0 24 24" focusable="false" {...props}>
+      <path d="M12 3.5l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17.5l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z" />
+    </svg>
+  );
+}
+
+export function IconeCompartilhar(props) {
+  return (
+    <svg viewBox="0 0 24 24" focusable="false" {...props}>
+      <circle cx="18" cy="5" r="2.6" />
+      <circle cx="6" cy="12" r="2.6" />
+      <circle cx="18" cy="19" r="2.6" />
+      <path d="M8.3 10.7l7.4-4.3M8.3 13.3l7.4 4.3" />
+    </svg>
+  );
+}
+
+export function IconeMapa(props) {
+  return (
+    <svg viewBox="0 0 24 24" focusable="false" {...props}>
+      <path d="M3 6l6-2.5 6 2.5 6-2.5v15l-6 2.5-6-2.5-6 2.5z" />
+      <path d="M9 3.5v15M15 6v15" />
+    </svg>
+  );
+}
+
 /* Silhueta urbana do topo. Decorativa, portanto aria-hidden. */
 export function MarcaDagua() {
   return (
